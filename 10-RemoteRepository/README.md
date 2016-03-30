@@ -2,6 +2,16 @@
 
 ## Introduction
 
+* So far we worked on local repository.
+* In real world you would have a remote copy for several reasons:
+  * Backup of the code (remote repository is backup on its own but the server
+    usually has a backup too).
+  * You would have a central repository shared by multiple developers.
+* Since _GIT_ is distributed source control management system you usually have
+  multiple copies of the repository on various places.
+* Central repository usually gives you advices on how to publish the repository
+  for the first time.
+
 ## Commands
 
 ## Comments
@@ -13,20 +23,24 @@
     * _upstream_ remote points to the main repository.
     * Different versions of the Github Desktop can map repositories differently.
     * You can use ```git remote --verbose``` to see details about mappings.
-* If you move the repository to another _git_ server you can re-map your
-  remotes easily.
-  * Let's consider standard setup with remote named ```origin``` pointing to
-    obsolete server.
-  * Let's remove the current mapping:
+
+### Re-mapping remote repository to new server
+
+If you move the repository to another _git_ server you can re-map your
+remotes easily.
+
+* Let's consider standard setup with remote named ```origin``` pointing to
+  obsolete server.
+* Let's remove the current mapping:
 
 ```
 git remote remove origin
 ```
 
-  * Now let's add the mapping with new location:
+* Now let's add the mapping with new location:
 
 ```
 git remote add origin https://server.com/MyRepo.git
 ```
 
-  * Here ```origin``` defines the name of remote.
+* Here ```origin``` defines the name of remote.
