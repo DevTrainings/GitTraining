@@ -14,6 +14,20 @@
 
 ## Commands
 
+* Let's publish our previously created repository:
+  * Create an empty repository on your favorite server (for example _Github_).
+* Setup the remote repository for the local repository:
+```
+git remote add origin https://github.com/voloda/GitTraining.git
+```
+  * _origin_ is an alias used by various commands. It is also a commonly used
+   alias for default remote.
+  * [https://github.com/voloda/GitTraining.git](https://github.com/voloda/GitTraining.git) is the remote URL of your repository.
+* Now publish your entire repository to the server:
+```
+git push origin --mirror
+```
+
 ## Comments
 
 * Your repository can have multiple remotes.
