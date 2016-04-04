@@ -18,14 +18,22 @@
   * Create an empty repository on your favorite server (for example _Github_).
 * Setup the remote repository for the local repository:
 ```
-git remote add origin https://github.com/voloda/GitTraining.git
+> git remote add origin https://github.com/voloda/GitTrainingPlayground.git
 ```
   * _origin_ is an alias used by various commands. It is also a commonly used
    alias for default remote.
-  * [https://github.com/voloda/GitTraining.git](https://github.com/voloda/GitTraining.git) is the remote URL of your repository.
+  * [https://github.com/voloda/GitTraining.git](https://github.com/voloda/GitTrainingPlayground.git) is the remote URL of your repository.
 * Now publish your entire repository to the server:
 ```
-git push origin --mirror
+> git push origin --mirror
+Counting objects: 26, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (12/12), done.
+Writing objects: 100% (26/26), 1.96 KiB | 0 bytes/s, done.
+Total 26 (delta 2), reused 0 (delta 0)
+To https://github.com/voloda/GitTrainingPlayground.git
+ * [new branch]      master -> master
+ * [new branch]      my_apple_app -> my_apple_app
 ```
 
 ## Comments
