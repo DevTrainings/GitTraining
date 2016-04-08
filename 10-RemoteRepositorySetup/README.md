@@ -24,7 +24,7 @@
 ```
   * _origin_ is an alias used by various commands. It is also a commonly used
    alias for default remote.
-  * [https://github.com/voloda/GitTraining.git](https://github.com/voloda/GitTrainingPlayground.git) is the remote URL of your repository.
+  * [https://github.com/voloda/GitTrainingPlayground.git](https://github.com/voloda/GitTrainingPlayground.git) is the remote URL of your repository.
 * Now publish your entire repository to the server:
 ```
 > git push origin --mirror
