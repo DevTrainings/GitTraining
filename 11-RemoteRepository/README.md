@@ -9,7 +9,7 @@ it.
 
 ### Publishing a branch
 
-* Let's create a local branch where we will develop a new feature:
+* Let's create a local branch where we will develop a nice new feature:
 ```
 > git checkout -b AddEasterEgg
 Switched to a new branch 'AddEasterEgg'
@@ -25,9 +25,9 @@ Switched to a new branch 'AddEasterEgg'
  create mode 100644 MyWindowsApp/EasterEgg.txt
 ```
 
-* Let's publish the branch now
+* Let's publish the branch now.
 ```
-> git push origin AddEasterEgg
+> git push -u origin AddEasterEgg
 Counting objects: 4, done.
 Delta compression using up to 8 threads.
 Compressing objects: 100% (3/3), done.
@@ -36,5 +36,8 @@ Total 4 (delta 0), reused 0 (delta 0)
 To https://github.com/voloda/GitTrainingPlayground.git
  * [new branch]      AddEasterEgg -> AddEasterEgg
 ```
+
+### Checking out a remote branch
+
 
 ### Retrieving changes from a remote branch

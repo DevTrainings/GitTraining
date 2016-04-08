@@ -7,10 +7,12 @@
   * Backup of the code (remote repository is backup on its own but the server
     usually has a backup too).
   * You would have a central repository shared by multiple developers.
-* Since _GIT_ is distributed source control management system you usually have
-  multiple copies of the repository on various places.
-* Central repository usually gives you advices on how to publish the repository
-  for the first time.
+* Since _GIT_ is distributed source control management system you
+  usually have multiple copies of the repository on various places.
+  * All the copies are exactly same and equivalent.
+  * You can synchronize with any repository around.
+* Central repository usually gives you advices on how to publish
+  the repository for the first time.
 
 ## Commands
 
