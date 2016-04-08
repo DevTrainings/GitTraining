@@ -2,8 +2,9 @@
 
 ## Introduction
 
-Once we have our remote repository configured we would be able to work with
-it.
+Once we have our remote repository configured we would be able to work with it.
+
+The list of commands below allows to work with remote repository.
 
 ## Commands
 
@@ -15,7 +16,7 @@ it.
 Switched to a new branch 'AddEasterEgg'
 ```
 
-* Let's do some changes to it:
+* Let's do some changes to it: 
 ```
 > echo "Happy Easters!" > MyWindowsApp\EasterEgg.txt
 > git add MyWindowsApp\EasterEgg.txt
@@ -39,6 +40,40 @@ To https://github.com/voloda/GitTrainingPlayground.git
 
 ### Checking out a remote branch
 
+It may be handy to see the list of branches including remote ones first.
+
+First let's update the content of the local repository from remote:
+```
+> git fetch origin
+```
+
+Now see the list
+```
+> git branch -a
+GitRm
+Remote
+ToolsConfiguration
+* master
+origin/master
+remotes/origin/GitRm
+remotes/origin/Remote
+remotes/origin/ToolsConfiguration
+remotes/origin/f_11
+remotes/origin/Fixes
+remotes/origin/master
+```
+
+If the remote branch does not conflict with any local branch, you can
+simply use:
+
+```
+> git checkout Fixes
+Branch Fixes set up to track remote branch Fixes from origin.
+Switched to a new branch 'Fixes'
+```
+
+Or alternatively you can specify remote name too (```origin``` in this
+case):
 ```
 > git checkout -t origin/Fixes
 Branch Fixes set up to track remote branch Fixes from origin.
