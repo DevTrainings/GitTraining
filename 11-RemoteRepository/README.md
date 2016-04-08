@@ -8,6 +8,34 @@ The list of commands below allows to work with remote repository.
 
 ## Commands
 
+### Creating copy of remote repository
+
+* Since we just published our local repository we do not need to create
+  a local copy.
+* Process of creating a local repository copy is known as ```clone```.
+* Please note that we are leaving alone setup of the authentication here.
+```
+> git clone https://github.com/voloda/GitTrainingPlayground.git
+Cloning into 'GitTrainingPlayground'...
+remote: Counting objects: 26, done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 26 (delta 2), reused 26 (delta 2), pack-reused 0
+Unpacking objects: 100% (26/26), done.
+Checking connectivity... done.
+```
+* Above command will clone remote repository to the local folder ```GitTrainingPlayground```.
+* You can specify the local folder name explicitly:
+```
+> git clone https://github.com/voloda/GitTrainingPlayground.git GitTrainingPlayground2
+Cloning into 'GitTrainingPlayground2'...
+remote: Counting objects: 26, done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 26 (delta 2), reused 26 (delta 2), pack-reused 0
+Unpacking objects: 100% (26/26), done.
+Checking connectivity... done.
+```
+* If required you may be asked to provide credentials for your remote account.
+
 ### Publishing a branch
 
 * Let's create a local branch where we will develop a nice new feature:
@@ -93,3 +121,13 @@ details:
 ```
 > git pull origin Remote
 ```
+
+## Comments
+
+* In the case you work with a remote repository you usually need some
+  kind of credentials.
+  Two most commonly used authentication mechanisms for _GIT_ are:
+  * User name and password.
+  * SSH key pair.
+* We will here stick to the user name and password. See relevant details
+  for your remote repository on how to setup for example SSH.

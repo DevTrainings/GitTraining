@@ -41,8 +41,7 @@ To https://github.com/voloda/GitTrainingPlayground.git
 ## Comments
 
 * Your repository can have multiple remotes.
-  * This is used for example on _Github_ when you fork a repository and you
-    run _clone_ repository using desktop client.
+  * This is used for example on _Github_ when you fork a repository and you run _clone_ repository using desktop client.
     * _origin_ remote usually points to your fork.
     * _upstream_ remote points to the main repository.
     * Different versions of the Github Desktop can map repositories differently.
