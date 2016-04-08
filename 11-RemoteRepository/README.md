@@ -16,7 +16,7 @@ The list of commands below allows to work with remote repository.
 Switched to a new branch 'AddEasterEgg'
 ```
 
-* Let's do some changes to it: 
+* Let's do some changes to it:
 ```
 > echo "Happy Easters!" > MyWindowsApp\EasterEgg.txt
 > git add MyWindowsApp\EasterEgg.txt
