@@ -39,5 +39,22 @@ To https://github.com/voloda/GitTrainingPlayground.git
 
 ### Checking out a remote branch
 
+```
+> git checkout -t origin/Fixes
+Branch Fixes set up to track remote branch Fixes from origin.
+Switched to a new branch 'Fixes'
+```
 
 ### Retrieving changes from a remote branch
+
+If your branch was set to track a remote branch you can use:
+```
+> git pull
+```
+
+Alternatively, if your branch for some reason does not track its remote
+counterpart or you would pull changes from another branch you can specify
+details:
+```
+> git pull origin Remote
+```
