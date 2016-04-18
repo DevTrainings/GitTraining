@@ -57,13 +57,19 @@ remotes easily.
 * Let's remove the current mapping:
 
 ```
-git remote remove origin
+> git remote remove origin
 ```
 
 * Now let's add the mapping with new location:
 
 ```
-git remote add origin https://server.com/MyRepo.git
+> git remote add origin https://server.com/MyRepo.git
 ```
 
 * Here ```origin``` defines the name of remote.
+
+Or alternatively you can just set the remote URL:
+
+```
+> git remote set-url origin https://server.com/MyRepo.git
+```
