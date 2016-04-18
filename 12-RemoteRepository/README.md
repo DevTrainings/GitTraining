@@ -6,6 +6,15 @@ Once we have our remote repository configured we would be able to work with it.
 
 The list of commands below allows to work with remote repository.
 
+### Upstream
+
+Upstream is a branch in central location. If a branch is configured for upstream
+some of the commands (like ```git pull```) will not require the name of remote
+and branch.
+
+Also it is pretty convenient since you may usually see the status of your
+working branch indicated in the command line.
+
 ## Commands
 
 ### Creating copy of remote repository
@@ -102,6 +111,7 @@ Switched to a new branch 'Fixes'
 
 Or alternatively you can specify remote name too (```origin``` in this
 case):
+
 ```
 > git checkout -t origin/Fixes
 Branch Fixes set up to track remote branch Fixes from origin.
@@ -111,6 +121,7 @@ Switched to a new branch 'Fixes'
 ### Retrieving changes from a remote branch
 
 If your branch was set to track a remote branch you can use:
+
 ```
 > git pull
 ```
@@ -118,6 +129,7 @@ If your branch was set to track a remote branch you can use:
 Alternatively, if your branch for some reason does not track its remote
 counterpart or you would pull changes from another branch you can specify
 details:
+
 ```
 > git pull origin Remote
 ```
