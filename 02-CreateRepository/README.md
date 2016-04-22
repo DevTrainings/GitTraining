@@ -23,10 +23,10 @@
 
 **Congratulation** - you have your first _GIT_ repository.
 
-* Above commands initialized **GitTraining1** repository in the local path
+* The commands above initialized **GitTraining1** repository in the local path
   **d:\code\GitTraining1**.
   * This folder contain **.git** subfolder with _GIT_ internal data.
-    * Here is a distributed copy of whole directory.
+    * The distributed copy of the whole directory is here.
   * This also serves as a local working copy where you edit source code.
 * See the _PowerShell_ command line (contains branch name and perhaps
   additional details about repository status).

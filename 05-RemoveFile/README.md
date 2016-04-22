@@ -7,14 +7,14 @@
 * Next you have to commit your changes.
 * Directories are not tracked by _GIT_.
   * Once a directory becomes empty it will not even appear in your sandbox.
-  * This can be a difference (for example compared to TFS). If you would keep
-    a folder for some reason create a file inside. Commonly used files are
+  * This can be a difference (for example compared to TFS). If you want to keep
+    a folder for some reason, create a file inside. Commonly used files are
     ```.gitattribute``` (this has special meaning), ```.gitkeep```,
-    ```.placeholder``` or ```.gitignore``` (this has special meaning).
+    ```.placeholder```, or ```.gitignore``` (this has special meaning).
 
 ## Commands
 
-* First remove the file in staging area:
+* Remove the file in staging area:
 ```
 git rm .\MyConsoleApp\console.txt
 ```
@@ -49,7 +49,7 @@ Changes to be committed:
 
         deleted:    MyConsoleApp/console.txt
 ```
-* Now commit your changes:
+* Commit your changes:
 
 ```
 git commit -m 'Removal of console application'
@@ -57,7 +57,7 @@ git commit -m 'Removal of console application'
 
 ## Comments
 
-* If you would undo the file deletion prior to commit you can use   
+* If you want to undo the file deletion prior to commit, you can use
   following set of commands:
 
 ```
