@@ -1,28 +1,28 @@
 # First lab
 
 * Perform tasks below.
-* Watch the _PowerShell_ command line how it changes.
+* Watch how the command line is changing.
 * Use ```git status``` to see what is going on.
 
 # Task
 
-* Create in your repository following folders and files.
-* For these files put some content in them per your preference:
+* Create the following folders and files in your repository.
+* Write some content per your preference into the files:
   * MyConsoleApp
     * console.txt
   * MyWindowsApp
     * windows.txt
     * code.txt
 * Add all files into _GIT_ repository as a single commit
-  * As a check-in message use text: _My first lab commit 1_
-* Now add a line to each of files in repository:
+  * check-in message: _My first lab commit 1_
+* Add this line to each file in your repository:
   * _Added during git workshop_
 * Commit all changes as a single commit
-  * As a check-in message use text: _My first lab commit 2_
+  * check-in message: _My first lab commit 2_
 
 # Changelog
 
-* Now run the command below:
+* Run the command below:
   * ```git log```
 * If you did everything correctly you should get output similar to this:
 
@@ -49,5 +49,5 @@ Date:   Thu Mar 17 12:56:25 2016 +0100
 
 # Comments
 
-* When adding contents of a folder you do not have to add individual files.
+* When adding contents of a folder, you do not have to add individual files.
 * Folders are not individual part of repository.

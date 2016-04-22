@@ -3,7 +3,7 @@ Overview
 
 > Git is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.
 
-Now, this is great and all, but what does it mean? Here are some points people have a hard time understanding about git:
+It is great and all, but what does it mean? Here are some points people have a hard time understanding about git:
 
 * everything related to git repository is stored in `.git` folder in root of your project; you can just copy project folder and git repository will travel with it
 * from technical standpoint, there is no central repository, all repositories are equal
@@ -34,16 +34,16 @@ Everyone has complete history
 * I'm sure it happened to you at least once. You commit password into source control
 	* if someone already cloned/pulled from you, all you can do is change it
 	* committing new version without the password won't help you, because everyone has complete history, each and every commit, in the local repository
-* other cause where you have to remember this is if you commit some huge file (`.pdb` or something) and later down the line you notice  that your repository is huge
+* Remember this also when you are going to commit some huge file (`.pdb` or something) and later down the line you notice  that your repository is huge
 	* deleting the file and committing the deletion won't help (unless you rewrite history and remove the file completely from all commits, see below)
 	* the file is part of the repository forever
-* **history can be rewritten**, but you will break every repository that cloned from you and they will have to re-clone, losing every local branch
+* **history can be rewritten** but you will break every repository that cloned from you and they will have to re-clone losing every local branch
 	* in other words, **don't ever rewrite history unless you know what you are doing**
 
 Commit and History integrity
 ----------------------------
 
-* in git you don't have revision numbers (as in TFS or SVN), instead git uses SHA-1 hashes to mark commits
+* unlike TFS or SVN, there are no revision numbers in git, git uses SHA-1 hashes to mark commits instead
 * each file in your repository is represented by its SHA-1 checksum
 * part of checksum-ed git commit is checksum of previous commits, so it forms cryptographically secure line from root commit to current state
 	* this means that if you have repository at the same commit as someone else and no local changes, you can be (pretty) sure you have the exact same files

@@ -9,11 +9,11 @@
   * Once a directory becomes empty it will not appear in your sandbox.
   * This is different from some other source control systems (TFS for example). If you want to keep a folder for some reason, then create a file inside it. Commonly used files are
     ```.gitattribute``` (this has special meaning), ```.gitkeep```,
-    ```.placeholder``` or ```.gitignore``` (this has special meaning).
+    ```.placeholder```, or ```.gitignore``` (this has special meaning).
 
 ## Commands
 
-* First remove the file in staging area:
+* Remove the file in staging area:
 
 ```
 git rm .\MyConsoleApp\console.txt
@@ -51,7 +51,7 @@ Changes to be committed:
 
         deleted:    MyConsoleApp/console.txt
 ```
-* Now commit your changes:
+* Commit your changes:
 
 ```
 git commit -m 'Removal of console application'
@@ -59,7 +59,7 @@ git commit -m 'Removal of console application'
 
 ## Comments
 
-* If you would undo the file deletion prior to commit you can use   
+* If you want to undo the file deletion prior to commit, you can use
   following set of commands:
 
 ```

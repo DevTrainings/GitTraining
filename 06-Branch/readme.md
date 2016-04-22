@@ -6,15 +6,15 @@ git-branch
 We are continuing on repository from part 04, so let's list branches
 we have:
 
-	$ git branch [--list]
+	$ git branch
 	* master
 
 We can see one branch called `master` with asterisk marking currently
-active branch. Create new branch
+active branch. Create a new branch:
 
 	$ git branch my_aple_app
 
-Again, let's check (with `git branch`) what branches we currently have
+Check which branches we currently have:
 
 	$ git branch
 	* master
@@ -30,6 +30,7 @@ We just renamed the branch to fix it
 	  my_apple_app
 
 And you know what? Let's not do OS X version of our application, since we don't know how to switch into it (yet!) anyway, so let's delete it
+to switch into it (yet!) anyway, so let's delete it
 
 	$ git branch -d my_apple_app
 	Deleted branch my_apple_app (was 1126614).
@@ -38,11 +39,11 @@ So, to sum up what we've just learned
 
 * git branch [--list]
 	* list branches
-* git branch $BRANCH_NAME
-	* creates branch named $BRANCH_NAME from current HEAD
-* git branch -m $OLD_BRANCH_NAME $NEW_BRANCH_NAME
+* git branch _BRANCH_NAME_
+	* create branch named _BRANCH_NAME_ from current HEAD
+* git branch -m _OLD_BRANCH_NAME_ _NEW_BRANCH_NAME_
 	* rename branch
-* git branch -d $BRANCH_NAME
+* git branch -d _BRANCH_NAME_
 	* delete branch
 
 More information
