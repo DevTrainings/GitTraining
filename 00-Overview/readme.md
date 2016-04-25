@@ -31,7 +31,7 @@ Everyone has complete history
 -----------------------------
 
 * this is very important point
-* I'm sure it happened to you at least once.  You commit password into source control
+* I'm sure it happened to you at least once. You commit password into source control
 	* if someone already cloned/pulled from you, all you can do is change it
 	* committing new version without the password won't help you, because everyone has complete history, each and every commit, in the local repository
 * other cause where you have to remember this is if you commit some huge file (`.pdb` or something) and later down the line you notice  that your repository is huge
@@ -41,7 +41,7 @@ Everyone has complete history
 	* in other words, **don't ever rewrite history unless you know what you are doing**
 
 Commit and History integrity
---------------------------
+----------------------------
 
 * in git you don't have revision numbers (as in TFS or SVN), instead git uses SHA-1 hashes to mark commits
 * each file in your repository is represented by its SHA-1 checksum
@@ -49,7 +49,7 @@ Commit and History integrity
 	* this means that if you have repository at the same commit as someone else and no local changes, you can be (pretty) sure you have the exact same files
 
 What is a branch in git?
----------------------
+------------------------
 
 * a branch is really just a pointer to a commit
 * the difference between a branch and a tag is that the branch is updated to a new commit when you commit into it

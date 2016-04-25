@@ -3,8 +3,7 @@
 ## Introduction
 
 * _GIT_ stores the configuration in ```gitconfig``` files.
-* The configuration file defines the user's name and email which
-  is being used during ```git-commit```.
+* The configuration file defines the user's name and email which is being used during ```git-commit```.
 * There are three levels of configuration:
   * system
     * Machine specific, shared with all users.
@@ -22,6 +21,7 @@ git config --system --edit
 ```
 git config --global --edit
 ```
+
   * local
     * Repository specific.
     * Overrides _global_ and _system_ level.
@@ -34,11 +34,9 @@ git config --local --edit
 ## E-mail and user name configuration
 
 * Two commands below will set user's email and user name on global level.
-* This means that unless the cloned repository has a local override
-  these values will be used.
+* This means that unless the cloned repository has a local override these values will be used.
 * It is very handy if you work on multiple repositories.
-* You can always use ```--local``` instead of ```--global``` to override
-  values per repository.
+* You can always use ```--local``` instead of ```--global``` to override values per repository.
 * File should be located as ```.gitconfig``` in your home directory.
 
 ```

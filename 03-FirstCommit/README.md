@@ -31,6 +31,5 @@
   * Prepares changes for commit.
   * If the file is modified after being added to the staging area you have to add it again.
 * Commit
-  * ```git commit``` checks the changes from staging area into the local
-    repository.
+  * ```git commit``` checks the changes from staging area into the local repository.
   * _GIT_ always requires commit message to be specified.

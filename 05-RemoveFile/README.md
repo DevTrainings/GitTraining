@@ -14,9 +14,11 @@
 ## Commands
 
 * First remove the file in staging area:
+
 ```
 git rm .\MyConsoleApp\console.txt
 ```
+
 * Check how the status on command line changed.
 * Since the ```MyConsoleApp``` should be empty it should disappear from
   disk:
@@ -34,6 +36,7 @@ Mode                LastWriteTime     Length Name
 d----         3/17/2016  12:58 PM            MyWindowsApp
 -a---         3/17/2016   1:02 PM         45 README.md
 ```
+
 * Check how the staging area looks like:
 
 ```
@@ -64,5 +67,4 @@ git reset HEAD
 git checkout -- MyConsoleApp/console.txt
 ```
 
-* Commands above will discard the removal from the staging area and then
-  restore the file from _GIT_.
+* Commands above will discard the removal from the staging area and then restore the file from _GIT_.
