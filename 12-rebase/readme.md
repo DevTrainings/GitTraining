@@ -58,7 +58,7 @@ It's important to keep in mind, that doing rebase rewrites repository history. T
 
 ### Conflicts
 
-Sometimes you can get merge conflict during rebase. You have to resolve them and then continue with `git rebase --skip`. You can also abort with `git rebase --abort`.
+Sometimes you can get merge conflict during rebase. You have to resolve them and then continue with `git rebase --continue`. You can also abort with `git rebase --abort`.
 
 Interactive rebase
 -----------------
