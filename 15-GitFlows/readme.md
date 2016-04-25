@@ -25,7 +25,7 @@ This is extension of previous model with the exception that each new feature liv
 
 After everyone agrees work is done, in can be merge into `master`. Good thing for this are pull requests, you can quite easily get back some feedback from the team during them.
 
-Important this is that feature branches can contain lots of small commits and be cleaned before being merge (`git-rebase`, ...).
+Important on this is that feature branches can contain lots of small commits and be cleaned before being merge (`git-rebase`, ...).
 
 > This model is enabled by cheap branching/merging in git.
 
