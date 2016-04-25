@@ -6,6 +6,7 @@ git-checkout
 Let's create OS X version after all. This time we'll use `git-checkout`
 with `-b` switch, which creates new branch if it doesn't exist already
 and checkout the new branch
+
 	git checkout -b my_apple_app
 
 With knowledge from last part we can check if it worked
