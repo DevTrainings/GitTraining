@@ -3,7 +3,7 @@
 
 * Specifies intentionally untracked files to ignore
 
-If you have some files you don't want to track in the git repository, for example object files, you can exclude them using file “.gitignore”. Git looks for that file in following locations:
+If you have some files you don't want to track in the git repository, for example object files, you can exclude them using file `.gitignore`. Git looks for that file in following locations:
 
 * $HOME/.config/git/ignore
 	* put global stuff here (backup files created by text editor etc.)
