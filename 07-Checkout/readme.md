@@ -1,5 +1,4 @@
-git-checkout
-============
+# git-checkout
 
 * Switch branches or restore working tree files
 
@@ -87,8 +86,7 @@ You can do similar thing for deleted files
 	On branch master
 	nothing to commit, working directory clean
 
-More information
-----------------
+## More information
 
 I recommend checking [git-checkout documentation](https://git-scm.com/docs/git-checkout) for more details,
 you can try to merge when there is a conflict, checkout exact commit (which detaches a HEAD) and more.

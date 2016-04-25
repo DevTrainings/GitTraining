@@ -1,5 +1,4 @@
-Overview
-========
+# Overview
 
 > Git is a distributed revision control system with an emphasis on speed, data integrity, and support for distributed, non-linear workflows.
 
@@ -12,14 +11,12 @@ It is great and all, but what does it mean? Here are some points people have a h
 	* you cannot restrict read access to specific files, folders, branches; if you want someone to clone from you, he has to be able to get everything
 	* everyone has complete history of the project
 
-All repositories are equal
---------------------------
+## All repositories are equal
 
 * while you do clone from somewhere, you are not restricted to pushing/pulling from there
 * For example, you have a colleague who made some useful class but it's not ready to be pushed upstream yet? Don't worry, you can pull it directly from him
 
-Restricting access
-------------------
+## Restricting access
 
 * you cannot restrict **read** access to files, directories or branches
 	* this can sometimes be problem in corporate environment for direct migration from SVN/TFS to git
@@ -27,8 +24,7 @@ Restricting access
 	* git has ability to be extended by hooks, so you can restrict write and/or check other stuff
 		* for example, you can verify that commit contains WIT number or other content and reject it otherwise
 
-Everyone has complete history
------------------------------
+## Everyone has complete history
 
 * this is very important point
 * I'm sure it happened to you at least once. You commit password into source control
@@ -40,16 +36,14 @@ Everyone has complete history
 * **history can be rewritten** but you will break every repository that cloned from you and they will have to re-clone losing every local branch
 	* in other words, **don't ever rewrite history unless you know what you are doing**
 
-Commit and History integrity
-----------------------------
+## Commit and History integrity
 
 * unlike TFS or SVN, there are no revision numbers in git, git uses SHA-1 hashes to mark commits instead
 * each file in your repository is represented by its SHA-1 checksum
 * part of checksum-ed git commit is checksum of previous commits, so it forms cryptographically secure line from root commit to current state
 	* this means that if you have repository at the same commit as someone else and no local changes, you can be (pretty) sure you have the exact same files
 
-What is a branch in git?
-------------------------
+## What is a branch in git?
 
 * a branch is really just a pointer to a commit
 * the difference between a branch and a tag is that the branch is updated to a new commit when you commit into it

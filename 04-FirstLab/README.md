@@ -4,7 +4,7 @@
 * Watch how the command line is changing.
 * Use ```git status``` to see what is going on.
 
-# Task
+## Task
 
 * Create the following folders and files in your repository.
 * Write some content per your preference into the files:
@@ -20,7 +20,7 @@
 * Commit all changes as a single commit
   * check-in message: _My first lab commit 2_
 
-# Changelog
+## Changelog
 
 * Run the command below:
   * ```git log```
@@ -47,7 +47,7 @@ Date:   Thu Mar 17 12:56:25 2016 +0100
     First commit and comment for it
 ```
 
-# Comments
+## Comments
 
 * When adding contents of a folder, you do not have to add individual files.
 * Folders are not individual part of repository.

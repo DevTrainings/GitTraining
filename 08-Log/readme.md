@@ -1,5 +1,4 @@
-git-log
-=======
+# git-log
 
 * Show commit logs
 
@@ -108,7 +107,6 @@ We can also add `-p` flag and let git list diff for complete history of the file
 
 > I'm not using `--oneline` here, since without colors it gets kinda dense.
 
-More information
-----------------
+## More information
 
 I recommend checking [git-log documentation](https://git-scm.com/docs/git-log) for more details, there is a **lot** of options for `git log`.

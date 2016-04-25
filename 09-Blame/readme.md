@@ -1,5 +1,4 @@
-git-blame
-=========
+# git-blame
 
 * Show what revision and author last modified each line of a file
 
@@ -9,8 +8,7 @@ This is one of the more useful commands in the git arsenal. It gives you informa
 
 > Since it annotates lines in file, it tells you nothing about lines that were deleted or completely replaced. Read up on `git-log`'s `-S` option for that.
 
-Preparing example environment
------------------------------
+## Preparing example environment
 
 First we will prepare an environment to show usage of `git-blame`. We need some data to show it, so I've modified my `MyWindowsApp/windows.txt` to look like this:
 
@@ -42,8 +40,7 @@ and in one last commit to some additional modification to `MyWindowsApp/windows.
 	[master eb6e5f6] added comment marking end of file
 	 1 file changed, 1 insertion(+)
 
-Who's to blame?
----------------
+## Who's to blame?
 
 Now we get to actually determine the blame.
 
@@ -96,12 +93,10 @@ Ha! See the difference? Now we know that first 6 lines are copy & paste from `My
 
 > One last good-to-know option is `-w` which forces git to ignore white space changes when looking for matching lines.
 
-git-gui blame
--------------
+## git-gui blame
 
 This text is on command line git usage, so this will not be described, but seriously, take some time to play with `git gui blame`. Lot of really cool features, my go-to tool for code archaeology.
 
-More information
-----------------
+## More information
 
 I recommend checking [git-blame documentation](https://git-scm.com/docs/git-blame) for more details, there are some other useful options.
