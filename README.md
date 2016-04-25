@@ -36,6 +36,7 @@ operations and study more advance scenarios on your own.
 * diff
 * difftool
 * cherry-pick
+* fetch
 * push
 * pull
 * log
