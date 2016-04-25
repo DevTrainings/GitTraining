@@ -6,7 +6,7 @@
 * The configuration file defines the user's name and email which
   is being used during ```git-commit```.
 * There are three levels of configuration:
-    * system
+  * system
     * Machine specific, shared with all users.
     * To edit the file in plain text you can use:
 
