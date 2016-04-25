@@ -87,7 +87,7 @@ We can see that branch `bar` was merged into `master`. Now it's time to do the s
 
 We have a conflict! We need to somehow resolve it.
 
-> You can always abort merge with `git merge --abort`
+> You can always abort merge with `git merge --abort`. `--abort` can be used in most situations when dealing with merge (`git-rebase`, `git-cherry-pick`, ...).
 
 Text editor way
 ---------------
