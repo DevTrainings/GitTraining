@@ -30,7 +30,7 @@ Specific file(s)
 	c72c6d6 My first lab commit 2
 	b76b4f2 My first lab commit 1
 
-Or even a directory (folder)
+Or even a folder
 
 	$ git log --oneline MyWindowsApp
 	c72c6d6 My first lab commit 2

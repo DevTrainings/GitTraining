@@ -53,7 +53,7 @@ What is a branch in git?
 
 * a branch is really just a pointer to a commit
 * the difference between a branch and a tag is that the branch is updated to a new commit when you commit into it
-* each branch isn't separate directory like in SVN/TFS
+* each branch isn't separate folder like in SVN/TFS
 * you can have only one branch checked-out at the moment since it reflects the state of all files of the git repository for that workspace
 
 ## GIT Vision

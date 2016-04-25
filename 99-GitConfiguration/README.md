@@ -37,7 +37,7 @@ git config --local --edit
 * This means that unless the cloned repository has a local override these values will be used.
 * It is very handy if you work on multiple repositories.
 * You can always use ```--local``` instead of ```--global``` to override values per repository.
-* File should be located as ```.gitconfig``` in your home directory.
+* File should be located as ```.gitconfig``` in your home folder.
 
 ```
 git config --global user.email "your_email@example.com"
