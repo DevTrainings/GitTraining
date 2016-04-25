@@ -3,10 +3,10 @@ git-reset
 
 > Reset current HEAD to the specified state
 
-Git reset has three forms. In all of the &lt;tree-ish&gt; defaults to HEAD.
+Git reset has three forms. &lt;tree-ish&gt; defaults to HEAD in all of them.
 
-`git reset [-q] [<tree-ish>] [--] <paths>...`
----------------------------------------------
+git reset [-q] [<tree-ish>] [--] <paths>...
+-------------------------------------------
 
 > Can be thought of as opposite for `git-add`.
 
@@ -39,15 +39,15 @@ We can try it on our current repository. Use this form of reset to return to wha
 
 Notice that the file is in `Untracked files`, meaning our working tree was not touched.
 
-`git reset (--patch|-p) [<tree-ish>] [--] [<paths>...]`
--------------------------------------------------------
+git reset (--patch|-p) [<tree-ish>] [--] [<paths>...]
+-----------------------------------------------------
 
 > Opposite for `git-add -p`.
 
 This allows you to interactively select hunks in the difference between the index and &lt;tree-ish&gt; and then apply them to index.
 
-`git reset [<mode>] [<commit>]`
--------------------------------
+git reset [<mode>] [<commit>]
+-----------------------------
 
 This form resets the current branch head to &lt;commit&gt; and depending on the mode also updates the index or working tree.
 
