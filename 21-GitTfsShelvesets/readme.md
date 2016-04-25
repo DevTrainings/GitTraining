@@ -27,9 +27,9 @@ Unshelves shelveset onto new branch, which is automatically created from parent 
 Shelve
 ------
 
-	$ git tfs shelve shelveset_name
+	$ git tfs shelve [-m "comment"] shelveset_name
 
-This command creates a shelveset with changes on current branch since last commit with is already in TFS.
+This command creates a shelveset with changes on current branch since last commit with is already in TFS. Comment can be set by `-m` option if needed.
 
 More information
 ----------------

@@ -12,6 +12,7 @@ Multiple ways to get git-tfs:
 
 * download from the [release page](https://github.com/git-tfs/git-tfs/releases)
 * using chocolatey: `choco install gittfs`
+* Github desktop has git-tfs integrated
 
 You have to make sure that `git-tfs.exe` is in your path.
 
