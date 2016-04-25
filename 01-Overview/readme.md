@@ -55,3 +55,16 @@ What is a branch in git?
 * the difference between a branch and a tag is that the branch is updated to a new commit when you commit into it
 * each branch isn't separate directory like in SVN/TFS
 * you can have only one branch checked-out at the moment since it reflects the state of all files of the git repository for that workspace
+
+## GIT Vision
+
+* Commit early and often.
+  * Benefit of doing so is that you can always return back to point where it makes sense (or perhaps just check the status 2 hours ago).
+* Make it nice later.
+  * Once you are done with your changes you can make them nicer before publishing.
+  * _GIT_ strength is that you can reorganize commits later before making them public or sending them for code review.
+
+## This Training
+
+* We will start with the GIT command line interface to give you understanding of _GIT_.
+* We will do a brief overview of visual tools later.
