@@ -14,12 +14,12 @@ operations and study more advance scenarios on your own.
 * Install favorite _GIT_ command line tool.
   * You can use [GitHub for Windows](https://desktop.github.com/) which
     comes with the PowerShell integration.
-	* Git for Windows (former mSysGit) can be used from cygwin.
-	* Other people use it from PowerShell.
-	* Commands should be always the same.
-  * This training uses PowerShell git somewhere, mSysGit (bash) somewhere
-    else.
-  * They should be mostly equivalent.
+  * Git for Windows (former mSysGit) can be used from cygwin.
+  * Other people use it from PowerShell.
+  * Commands should be always the same.
+* This training uses PowerShell git somewhere, mSysGit (bash) somewhere
+  else.
+* They should be mostly equivalent.
 
 # Covered topics
 
