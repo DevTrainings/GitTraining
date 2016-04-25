@@ -1,52 +1,61 @@
 # Introduction
 
+The main goal of this repository is to provide a hands-on introduction training
+for GIT SCM.
+
+After finishing all the tasks you should be able to perform all the usual GIT
+operations and study more advance scenarios on your own.
+
 # Prerequisites
 
 * Create an account on [http://github.org](http://github.org).
-  * This is necessary for later tasks related to parallel development.
+  * This is necessary for later tasks related to parallel development (remotes
+    repository).
 * Install favorite _GIT_ command line tool.
-  * You can use GitHub for Windows which comes with the PowerShell integration.
-	* Git for Windows (former mSysGit) can be used from cygwin, that's how I do it
-	* other people use it from PowerShell
-	* commands should be the same
-  * [https://desktop.github.com/](https://desktop.github.com/)
-  * This training uses PowerShell git somewhere, mSysGit (bash) somewhere else
-	* they should be mostly equivalent
-	* someone will help you if you are stuck on something
+  * You can use [GitHub for Windows](https://desktop.github.com/) which
+    comes with the PowerShell integration.
+	* Git for Windows (former mSysGit) can be used from cygwin.
+	* Other people use it from PowerShell.
+	* Commands should be always the same.
+  * This training uses PowerShell git somewhere, mSysGit (bash) somewhere
+    else.
+  * They should be mostly equivalent.
 
-# Covered commands
+# Covered topics
+
+## Commands
 
 * init
-* status
 * add
+* status
+* rm
 * commit
-
-* branch
 * checkout
+* merge
+* mergetool
+* diff
+* difftool
+* cherry-pick
+* push
+* pull
 * log
 * blame
-
-# to be covered
-
-## Vlada
-* rm
-
-## Pavel
-*	clone – 5 min
 * remote
-*	fetch – 6.5 min
-*	pull – 13 min
-*	push – 7 min
+* rebase
+* tag
+* TFS
 
-* pull requests
+## Others
 
-*	rebase
-  *	Squash – 7 min
-  *	Reorder – 5.5 min
-  *	Update comment – 3 min
-  *	skip commit – 3 min
-  *	...
-* git tfs
+* .gitignore
+* .gitconfig
+
+# Uncovered though interesting topics
+
+* Submodules can help you organize multiple physical repositories into
+  single logical one.
+* CVS/SVN integration tools are available (it is super easy to migrate
+  such repositories).
 
 # Attendees
 
