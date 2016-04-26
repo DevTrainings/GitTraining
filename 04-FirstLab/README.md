@@ -27,7 +27,6 @@
 * If you did everything correctly you should get output similar to this:
 
 ```
-D:\code\GitTraining1 [master]> git log
 commit a7ac772f12f8030cce31d1e982320e462b146239
 Author: Kloz, Vladimir <Vladimir.Kloz@ncr.com>
 Date:   Thu Mar 17 13:02:34 2016 +0100

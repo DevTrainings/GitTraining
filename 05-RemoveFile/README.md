@@ -14,18 +14,12 @@
 ## Commands
 
 * Remove the file in staging area:
-
-```
-git rm .\MyConsoleApp\console.txt
-```
+    *  ```git rm .\MyConsoleApp\console.txt```
 
 * Check how the status on command line changed.
 * Since the ```MyConsoleApp``` should be empty it should disappear from
   disk:
-
-```
-ls -l .
-```
+    * ```ls -l .```
 
 ```
     Directory: D:\Code\GitTraining1
@@ -38,33 +32,24 @@ d----         3/17/2016  12:58 PM            MyWindowsApp
 ```
 
 * Check how the staging area looks like:
+    * ```git status```
 
 ```
-git status
-```
-
-```
-D:\Code\GitTraining1 [master +0 ~0 -1]> git status
 On branch master
 Changes to be committed:
   (use "git reset HEAD <file>..." to unstage)
 
         deleted:    MyConsoleApp/console.txt
 ```
-* Commit your changes:
 
-```
-git commit -m 'Removal of console application'
-```
+* Commit your changes:
+    * ```git commit -m 'Removal of console application'```
 
 ## Comments
 
 * If you want to undo the file deletion prior to commit, you can use
   following set of commands:
-
-```
-git reset HEAD
-git checkout -- MyConsoleApp/console.txt
-```
+    * ```git reset HEAD```
+    * ```git checkout -- MyConsoleApp/console.txt```
 
 * Commands above will discard the removal from the staging area and then restore the file from _GIT_.
