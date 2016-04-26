@@ -55,6 +55,8 @@ operations and study more advance scenarios on your own.
 
 * Submodules can help you organize multiple physical repositories into
   single logical one.
+  * You can even link 3rd party dependencies, which are published via
+    _GIT_ repository into your source code tree.
 * CVS/SVN integration tools are available (it is super easy to migrate
   such repositories).
 
