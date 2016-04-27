@@ -2,7 +2,11 @@
 
 ## GitHub (free)
 
+* + pull requests
+
 ## SourceTree (free)
+
+* Almgit + pull requests
 
 ## TortoiseGIT (free)
 
