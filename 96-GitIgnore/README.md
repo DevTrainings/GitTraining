@@ -10,7 +10,7 @@ If you have some files you don't want to track in the git repository, for exampl
 * $GIT_DIR/info/exclude
 	* put repository specific but not to be shared files here
 * .gitignore
-	* git looks for this file in current directory and any parent up to the root of the work tree
+	* git looks for this file in current folder and any parent up to the root of the work tree
 	* put things everyone should ignore here
 
 Syntax
@@ -19,7 +19,7 @@ Syntax
 * use `#` at the start of a line for comments
 * trailing spaces ignored unless escaped
 * if you need to include previously excluded file, use `!` for that
-	* it's not possible to re-include a file if parent directory was excluded
+	* it's not possible to re-include a file if parent folder was excluded
 * patterns ending with slash (`/`) match only directories
 * if pattern doesn't contain slash (`/`), it's used as shell glob pattern
 * double asterisk `**` may have special meaning:

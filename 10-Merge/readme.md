@@ -31,7 +31,7 @@ This repository looks like this (run it yourself to have it in colors ;) ):
 	|/  
 	* 25f7328 file
 
-We will ignore `cherry-pick` branch for now, we will get to it later. We have file `file` in the root directory
+We will ignore `cherry-pick` branch for now, we will get to it later. We have file `file` in the root folder
 
 	$ ls -l .
 	total 8
