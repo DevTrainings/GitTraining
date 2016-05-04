@@ -1,9 +1,15 @@
 > Preparation:
+
 > `git clone git@github.com:DevTrainings/test_merge_conflict.git`
+
 > `cd test_merge_conflict`
+
 > `git checkout bar`
+
 > `git checkout cherry-pick`
+
 > `git checkout foo`
+
 > `git checkout master`
 
 # Merging changes
