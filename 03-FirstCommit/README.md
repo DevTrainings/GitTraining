@@ -10,14 +10,22 @@
 
 * Start the _GIT Shell_.
 * Switch to your repository:
-  * ```cd d:\code\GitTraining1```
-* Create a file using your favorite editor:
-  * ```notepad README.md```
-  * Add content to it:
-  * _Hello GIT World!_
-  * Save the file
+```
+> cd d:\code\GitTraining1
+```
+* Create a file using your favorite editor (e.g. write some code):
+```
+> notepad README.md
+```
+
+* Add content to it:
+* _Hello GIT World!_
+* Save the file
 * Check the local repository status:
-  * ```git status```
+```
+> git status
+```
+
 * Add the file to _GIT_ staging area:
   * ```git add README.md```
 * Check the local repository status:
