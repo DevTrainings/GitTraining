@@ -1,4 +1,4 @@
-> Preparation: `git blame -C -C -C MyWindowsApp/dll.txt`
+> Preparation: `git clone git@github.com:DevTrainings/test_rebase.git`
 
 git-rebase
 ==========
