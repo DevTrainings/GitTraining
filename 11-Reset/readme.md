@@ -52,12 +52,27 @@ git reset [<mode>] [<commit>]
 This form resets the current branch head to &lt;commit&gt; and depending on the mode also updates the index or working tree.
 
 * --soft
-	* does not touch the index or the working tree
+	* does not touch the index or the working tree, your files will remain as they were and in "Changes to be commited" (index).
+	* this is useful if you've forgotten to add something into last commit
+
+	git reset --soft HEAD~1
+	git add forgotten_file
+	git commit
+
 * --mixed (default)
 	* resets the index but not the working tree
+	* all your files are the same, they are not touched, but they are not in index anymore, they show up in local changes / untracked files
+		* you need to git-add them again before commiting
 * --hard
 	* resets the index and working tree
 	* all changes to tracked files are discarded
+	* useful to throw away changes you just don't want to have
+		* you screwed up merge and want to try again?
+		* your code is completely wrong and you want to start over?
+
+	git reset --hard HEAD~1
+
+	* this throws away last commit and all your tracked files are returned to state they were in
 * --merge
 	* resets the index and working tree
 	* keeps those which are different between the index and working tree
