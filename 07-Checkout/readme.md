@@ -21,10 +21,12 @@ master
 
 We "implement" OS X version and commit it
 
-* `mkdir MyAppleApp`
-* `echo "OS X implementation" > MyAppleApp/osx.txt`
-* `git add MyAppleApp`
-* `git commit -m "OS X version"`
+```
+> mkdir MyAppleApp
+> echo "OS X implementation" > MyAppleApp/osx.txt
+> git add MyAppleApp
+> git commit -m "OS X version"
+```
 
 But this version will require more work, so we switch back to master
 to do something else

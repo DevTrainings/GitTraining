@@ -39,11 +39,10 @@ We just renamed the branch to fix it:
   my_apple_app
 ```
 
-And you know what? Let's not do OS X version of our application, since we don't know how to switch into it (yet!) anyway, so let's delete it
-to switch into it (yet!) anyway, so let's delete it:
+And you know what? Let's not do OS X version of our application, since we don't know how to switch into it (yet!) anyway, so let's delete it:
 
 ```
-> git branch -d my_apple_app```
+> git branch -d my_apple_app
 Deleted branch my_apple_app (was 1126614).
 ```
 
