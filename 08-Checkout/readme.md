@@ -1,3 +1,5 @@
+> Preparation: `git clone git@github.com:DevTrainings/premade_checkout.git`
+
 # Working with branches
 
 * Switch branches or restore working tree files

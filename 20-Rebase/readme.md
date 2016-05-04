@@ -1,3 +1,5 @@
+> Preparation: `git blame -C -C -C MyWindowsApp/dll.txt`
+
 git-rebase
 ==========
 
@@ -6,10 +8,7 @@ git-rebase
 Rebasing branch
 ---------------
 
-Rebasing is a cool way of integrating changes from one branch into another. Clone repository for testing:
-
-	$ git clone git@github.com:DevTrainings/test_rebase.git
-	$ cd test_rebase
+Rebasing is a cool way of integrating changes from one branch into another.
 
 Let's check how it looks:
 

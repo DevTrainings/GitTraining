@@ -1,3 +1,5 @@
+> Preparation: `git clone git@github.com:DevTrainings/premade_removefile.git`
+
 # Removing a file from a repository
 
 ## Introduction

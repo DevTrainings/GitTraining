@@ -1,3 +1,5 @@
+> Preparation: Just make empty repository with `git init`.
+
 Git-tag
 =======
 

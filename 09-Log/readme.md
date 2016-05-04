@@ -1,3 +1,9 @@
+> Preparation:
+> `git clone git@github.com:DevTrainings/premade_log.git`
+> `cd premade_log`
+> `git checkout my_apple_app`
+> `git checkout master`
+
 # Reviewing the repository history
 
 * Show commit logs

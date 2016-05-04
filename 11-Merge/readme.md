@@ -1,3 +1,11 @@
+> Preparation:
+> `git clone git@github.com:DevTrainings/test_merge_conflict.git`
+> `cd test_merge_conflict`
+> `git checkout bar`
+> `git checkout cherry-pick`
+> `git checkout foo`
+> `git checkout master`
+
 # Merging changes
 
 ## Merge
@@ -7,17 +15,6 @@
 We will start with warning from documentation:
 
 > Warning: Running git merge with non-trivial uncommitted changes is discouraged: while possible, it may leave you in a state that is hard to back out of in the case of a conflict.
-
-Let's all start with cloning testing repository to check merge on:
-
-```
-> git clone git@github.com:DevTrainings/test_merge_conflict.git
-> cd test_merge_conflict
-> git checkout bar
-> git checkout cherry-pick
-> git checkout foo
-> git checkout master
-```
 
 This repository looks like this (run it yourself to have it in colors ;) ):
 

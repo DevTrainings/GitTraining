@@ -1,3 +1,5 @@
+> Preparation: `git@github.com:DevTrainings/premade_blame.git`
+
 # git-blame
 
 * Show what revision and author last modified each line of a file
@@ -10,7 +12,7 @@ This is one of the more useful commands in the git arsenal. It gives you informa
 
 ## Preparing example environment
 
-First we will prepare an environment to show usage of `git-blame`. We need some data to show it, so I've modified my `MyWindowsApp/windows.txt` to look like this:
+I've prepared an environment to show usage of `git-blame`. We need some data to show it, so I've modified my `MyWindowsApp/windows.txt` to look like this:
 
 * `> cat MyWindowsApp/windows.txt`
 
@@ -24,7 +26,7 @@ int main ( int argc , char * * argv ) {
 }
 ```
 
-in one commit and after that made two other changes in separate commit:
+in one commit and after that made two other changes in separate commits:
 
 * `> cat MyWindowsApp/dll.txt`
 
@@ -48,6 +50,19 @@ and in one last commit to some additional modification to `MyWindowsApp/windows.
 [master eb6e5f6] added comment marking end of file
  1 file changed, 1 insertion(+)
 ```
+
+This is just so you know how the repository looks like right now:
+
+	git log --oneline
+
+	018875b added comment marking end of file
+	2e603cf modified dll.txt
+	9abf115 modified windows.txt
+	c6a13f4 moved code into dll
+	e6ba054 Removal of console application
+	7ff28bc My first lab commit 2
+	a92972e My first lab commit 1
+	d14ae79 First commit and comment for it
 
 ## Who's to blame?
 
