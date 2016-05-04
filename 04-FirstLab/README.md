@@ -2,7 +2,7 @@
 
 * Perform tasks below.
 * Watch how the command line is changing.
-* Use ```git status``` to see what is going on.
+* Use `git-status` to see what is going on.
 
 ## Task
 
@@ -23,7 +23,11 @@
 ## Changelog
 
 * Run the command below:
-  * ```git log```
+
+```
+> git log
+```
+
 * If you did everything correctly you should get output similar to this:
 
 ```

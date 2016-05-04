@@ -13,11 +13,29 @@
 
 * Start _Git Shell_.
 * Create a local folder where your repository will reside:
-  * ```mkdir d:\code\GitTraining1```
+
+```
+> mkdir d:\code\GitTraining1
+Directory: D:\code
+
+
+Mode                LastWriteTime     Length Name
+----                -------------     ------ ----
+d----          5/4/2016  12:36 PM            gittraining1
+```
+
 * Switch to created folder:
-  * ```cd d:\code\GitTraining1```
+
+```
+> cd d:\code\GitTraining1
+```
+
 * Initialize _GIT_ repository:
-  * ```git init```
+
+```
+> git init
+Initialized empty Git repository in D:/Code/GitTraining1/.git/
+```
 
 ## Comments
 
@@ -26,5 +44,5 @@
 * The commands above initialized **GitTraining1** repository in the local path **d:\code\GitTraining1**.
   * This folder contain **.git** subfolder with _GIT_ internal data.
     * The distributed copy of the whole folder is here.
-  * This also serves as a local working copy where you edit source code.
+  * This location (```d:\code\GitTraining1```) also serves as a local working copy where you edit source code.
 * See the _PowerShell_ command line (contains branch name and perhaps additional details about repository status).

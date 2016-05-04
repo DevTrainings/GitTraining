@@ -51,7 +51,7 @@ git config --global user.name "Vladimir Kloz"
 
 ### Visual Studio
 
-* It is pretty handy to use a visual merge tool you are used to using.
+* It is pretty handy to use a visual merge tool you are used to use.
 * For 3-way merge Visual Studio works pretty well.
 * Open the global configuration file:
 
@@ -140,6 +140,8 @@ Assuming you have `cyg-wrapper.sh` script in `~/bin`.
 
 * Another handy setting can be the default text editor which opens during
   various operations.
+
+### Notepad++
 * Command below uses _notepad++_ but can be adjusted easily to anything
   else.
 
