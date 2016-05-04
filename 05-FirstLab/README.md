@@ -1,3 +1,5 @@
+> Preparation: `git clone git@github.com:DevTrainings/premade_firstlab.git`
+
 # First lab
 
 * Perform tasks below.
