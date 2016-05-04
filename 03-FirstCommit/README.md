@@ -80,3 +80,5 @@ create mode 100644 README.md
 * Commit
   * ```git commit``` checks the changes from staging area into the local repository.
   * _GIT_ always requires commit message to be specified.
+  * If you do not specify ```-m``` parameter your default text editor will be
+    opened and you can write your message there.
