@@ -27,6 +27,7 @@ operations and study more advance scenarios on your own.
 * Or just clone this repository and follow individual tasks.
   * You can use your favorite text editor with MarkDown plugin to see everything
     formatted.
+* Feel free to submit PR to make this more useful/better :-).
 
 # Covered topics
 
