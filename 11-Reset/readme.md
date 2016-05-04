@@ -14,7 +14,7 @@ git reset [-q] [<tree-ish>] [--] <paths>...
 
 Resets index entries for all &lt;paths&gt; to their state at &lt;tree-ish&gt;. Important part here is that this form of `git-reset` doesn't affect the working tree or current branch in any form.
 
-We can try it on our current repository. Use this form of reset to return to what `09-Blame/readme.md` looked like before it was added:
+We can try it out. Use this form of reset to return to what `c` file looked like before it was added:
 
 	> git status
 
