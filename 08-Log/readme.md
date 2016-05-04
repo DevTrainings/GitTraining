@@ -93,10 +93,8 @@ Author: Wolf <wolf@wolfsden.cz>
 Date:   Wed Mar 30 16:21:43 2016 +0200
 
     moved code into dll
-```
 
-```
-> diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/dll.txt
+diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/dll.txt
 
 similarity index 100%
 rename from MyWindowsApp/code.txt
@@ -107,10 +105,8 @@ Author: Wolf <wolf@wolfsden.cz>
 Date:   Wed Mar 30 16:03:31 2016 +0200
 
     My first lab commit 2
-```
 
-```
-> diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/code.txt
+diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/code.txt
 index e69de29..fc8502f 100644
 --- a/MyWindowsApp/code.txt
 +++ b/MyWindowsApp/code.txt
@@ -122,9 +118,7 @@ Author: Wolf <wolf@wolfsden.cz>
 Date:   Wed Mar 30 16:02:47 2016 +0200
 
     My first lab commit 1
-```
 
-```
 diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/code.txt
 new file mode 100644
 index 0000000..e69de29
