@@ -1,4 +1,4 @@
-# git-checkout
+# Working with branches
 
 * Switch branches or restore working tree files
 
@@ -6,32 +6,38 @@ Let's create OS X version after all. This time we'll use `git-checkout`
 with `-b` switch, which creates new branch if it doesn't exist already
 and checkout the new branch
 
-* ```git checkout -b my_apple_app```
+```
+> git checkout -b my_apple_app
+Switched to a new branch 'my_apple_app'
+```
 
 With knowledge from last part we can check if it worked
 
-* ```git branch```
-
-
-```  master
+```
+> git branch
+master
 * my_apple_app
 ```
 
 We "implement" OS X version and commit it
 
-* ```mkdir MyAppleApp```
-* ```echo "OS X implementation" > MyAppleApp/osx.txt```
-* ```git add MyAppleApp```
-* ```git commit -m "OS X version"```
+* `mkdir MyAppleApp`
+* `echo "OS X implementation" > MyAppleApp/osx.txt`
+* `git add MyAppleApp`
+* `git commit -m "OS X version"`
 
 But this version will require more work, so we switch back to master
 to do something else
 
-* ```git checkout master```
-* ```git branch```
+```
+> git checkout master
+Switched to branch 'master'
+```
 
+See the list of branches now:
 
 ```
+> git branch
 * master
   my_apple_app
 ```
@@ -39,10 +45,9 @@ to do something else
 Notice that `MyAppleApp` folder is not in the working tree any longer
 (because it was committed into another branch):
 
-* ```ls -l .```
-
-
 ```
+> ls -l .
+
 total 4
 drwxr-xr-x 2 paladin paladin 60 Mar 20 14:58 MyConsoleApp
 drwxr-xr-x 2 paladin paladin 80 Mar 20 14:58 MyWindowsApp
@@ -55,18 +60,16 @@ drwxr-xr-x 2 paladin paladin 80 Mar 20 14:58 MyWindowsApp
 
 Now it's time to take a look at second usage for `git-checkout`. Restoring files in working tree. Let's see how `MyConsoleApp/console.txt` looks
 
-* ```cat MyConsoleApp/console.txt```
-
 ```
+> cat MyConsoleApp/console.txt```
+...
 Added during git workshop
 ```
 
 Do some modifications to the file and check the repository status
 
-* ```git status```
-
-
 ```
+> git status
 On branch master
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
@@ -79,10 +82,14 @@ no changes added to commit (use "git add" and/or "git commit -a")
 
 Now let's throw away those changes because we don't need them.
 
-* ```git checkout MyConsoleApp/console.txt```
-* ```git status```
+```
+> git checkout MyConsoleApp/console.txt
+```
+
+Check the status now:
 
 ```
+> git status
 On branch master
 nothing to commit, working directory clean
 ```
@@ -92,10 +99,9 @@ nothing to commit, working directory clean
 
 You can do similar thing for deleted files
 
-* ```rm MyConsoleApp/console.txt```
-* ```git status```
-
 ```
+> rm MyConsoleApp/console.txt
+> git status
 On branch master
 Changes not staged for commit:
   (use "git add/rm <file>..." to update what will be committed)
@@ -106,10 +112,11 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-* ```git checkout MyConsoleApp/console.txt```
-* ```git status```
+Restore the file content:
 
 ```
+> git checkout MyConsoleApp/console.txt
+> git status
 On branch master
 nothing to commit, working directory clean
 ```

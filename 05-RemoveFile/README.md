@@ -8,8 +8,8 @@
 * Directories are not tracked by _GIT_.
   * Once a folder becomes empty it will not appear in your sandbox.
   * This is different from some other source control systems (TFS for example). If you want to keep a folder for some reason, then create a file inside it. Commonly used files are
-    ```.gitattribute``` (this has special meaning), ```.gitkeep```,
-    ```.placeholder```, or ```.gitignore``` (this has special meaning).
+    `.gitattribute` (this has special meaning), `.gitkeep`,
+    `.placeholder`, or `.gitignore` (this has special meaning).
 
 ## Commands
 
@@ -69,7 +69,7 @@ D       MyConsoleApp/console.txt
 
 * Followed by:
 
-````
+```
 > git checkout -- MyConsoleApp/console.txt
 ```
 

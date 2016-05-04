@@ -2,7 +2,7 @@
 
 * Perform tasks below.
 * Watch how the command line is changing.
-* Use ```git-status``` to see what is going on.
+* Use `git-status` to see what is going on.
 
 ## Task
 
