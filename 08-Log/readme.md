@@ -1,4 +1,4 @@
-# git-log
+# Reviewing the repository history
 
 * Show commit logs
 
@@ -8,9 +8,8 @@ Now, let me just start this with a quick remark that very few of you will likely
 
 The simplest form `git log` we already know, so let's try something more compact
 
-* ```git log --oneline```
-
 ```
+> git log --oneline
 6cfa070 Removal of console application
 c72c6d6 My first lab commit 2
 b76b4f2 My first lab commit 1
@@ -19,9 +18,8 @@ b76b4f2 My first lab commit 1
 
 We can see history of current branch. Now, you can provide a branch
 
-* ```git log --oneline my_apple_app```
-
 ```
+> git log --oneline my_apple_app
 5a1710a OS X version
 6cfa070 Removal of console application
 c72c6d6 My first lab commit 2
@@ -30,34 +28,32 @@ b76b4f2 My first lab commit 1
 ```
 
 Specific file(s)
-* ```git log --oneline MyWindowsApp/code.txt```
-
 ```
+> git log --oneline MyWindowsApp/code.txt
 c72c6d6 My first lab commit 2
 b76b4f2 My first lab commit 1
 ```
 
 Or even a folder
-* ```git log --oneline MyWindowsApp```
-
 ```
+> git log --oneline MyWindowsApp
 c72c6d6 My first lab commit 2
 b76b4f2 My first lab commit 1
 ```
 
 But this is all just iterations of the same, so let's try something more interesting.
-* ```git mv MyWindowsApp/code.txt MyWindowsApp/dll.txt```
-* ```git commit -m "moved code into dll"```
-
 ```
+> git mv MyWindowsApp/code.txt MyWindowsApp/dll.txt
+> git commit -m "moved code into dll"
 [master eeab96e] moved code into dll
  1 file changed, 0 insertions(+), 0 deletions(-)
  rename MyWindowsApp/{code.txt => dll.txt} (100%)
 ```
 
-* ```git log --follow --oneline MyWindowsApp/dll.txt```
+See the history:
 
 ```
+> git log --follow --oneline MyWindowsApp/dll.txt
 eeab96e moved code into dll
 c72c6d6 My first lab commit 2
 b76b4f2 My first lab commit 1
@@ -65,9 +61,8 @@ b76b4f2 My first lab commit 1
 
 We can see that the file was tracked even across renames! Using `--follow` we can even list history of deleted files:
 
-* ```git log --follow --oneline -- MyConsoleApp/console.txt```
-
 ```
+> git log --follow --oneline -- MyConsoleApp/console.txt
 6cfa070 Removal of console application
 c72c6d6 My first lab commit 2
 b76b4f2 My first lab commit 1
@@ -75,9 +70,8 @@ b76b4f2 My first lab commit 1
 
 Now what if we are interested in what happened to file(s) in what commits, but not yet in complete diff? We can use `--name-status` to see changes made to file. Let's try it:
 
-* ```git log --follow --name-status --oneline MyWindowsApp/dll.txt```
-
 ```
+> git log --follow --name-status --oneline MyWindowsApp/dll.txt
 e2385cf main in dll
 M       MyWindowsApp/dll.txt
 eeab96e moved code into dll
@@ -92,9 +86,8 @@ A       MyWindowsApp/code.txt
 
 We can also add `-p` flag and let git list diff for complete history of the file across renames.
 
-* ```git log --follow -p MyWindowsApp/dll.txt```
-
 ```
+> git log --follow -p MyWindowsApp/dll.txt
 commit eeab96ec34708b47a7567cf78059b25b4edb45a6
 Author: Wolf <wolf@wolfsden.cz>
 Date:   Wed Mar 30 16:21:43 2016 +0200
@@ -102,9 +95,9 @@ Date:   Wed Mar 30 16:21:43 2016 +0200
     moved code into dll
 ```
 
-* ```diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/dll.txt```
-
 ```
+> diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/dll.txt
+
 similarity index 100%
 rename from MyWindowsApp/code.txt
 rename to MyWindowsApp/dll.txt
@@ -116,9 +109,8 @@ Date:   Wed Mar 30 16:03:31 2016 +0200
     My first lab commit 2
 ```
 
-* ```diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/code.txt```
-
 ```
+> diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/code.txt
 index e69de29..fc8502f 100644
 --- a/MyWindowsApp/code.txt
 +++ b/MyWindowsApp/code.txt
@@ -132,9 +124,8 @@ Date:   Wed Mar 30 16:02:47 2016 +0200
     My first lab commit 1
 ```
 
-* ```diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/code.txt```
-
 ```
+diff --git a/MyWindowsApp/code.txt b/MyWindowsApp/code.txt
 new file mode 100644
 index 0000000..e69de29
 ```

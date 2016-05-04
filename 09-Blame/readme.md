@@ -12,7 +12,7 @@ This is one of the more useful commands in the git arsenal. It gives you informa
 
 First we will prepare an environment to show usage of `git-blame`. We need some data to show it, so I've modified my `MyWindowsApp/windows.txt` to look like this:
 
-* ```cat MyWindowsApp/windows.txt```
+* `> cat MyWindowsApp/windows.txt`
 
 
 ```cpp
@@ -26,7 +26,7 @@ int main ( int argc , char * * argv ) {
 
 in one commit and after that made two other changes in separate commit:
 
-* ```cat MyWindowsApp/dll.txt```
+* `> cat MyWindowsApp/dll.txt`
 
 ```cpp
 // Added during git workshop
@@ -41,11 +41,10 @@ int main ( int argc , char * * argv ) {
 
 and in one last commit to some additional modification to `MyWindowsApp/windows.txt` file, I did
 
-* ```echo "// end-of-file" >> MyWindowsApp/windows.txt```
-* ```git add -u```
-* ```git commit -m "added comment marking end of file"```
-
 ```
+> echo "// end-of-file" >> MyWindowsApp/windows.txt
+> git add -u
+> git commit -m "added comment marking end of file"
 [master eb6e5f6] added comment marking end of file
  1 file changed, 1 insertion(+)
 ```
@@ -54,11 +53,10 @@ and in one last commit to some additional modification to `MyWindowsApp/windows.
 
 Now we get to actually determine the blame.
 
-* ```git blame MyWindowsApp/windows.txt```
-
 ```
+>git blame MyWindowsApp/windows.txt
 dc2331b3 (Wolf 2016-03-31 01:34:17 +0200 1) // Added during git workshop
-dc2331b3 (Wolf 2016-03-31 01:34:17 +0200 2) 
+dc2331b3 (Wolf 2016-03-31 01:34:17 +0200 2)
 dc2331b3 (Wolf 2016-03-31 01:34:17 +0200 3) // windows
 dc2331b3 (Wolf 2016-03-31 01:34:17 +0200 4) int main ( int argc , char * * argv ) {
 dc2331b3 (Wolf 2016-03-31 01:34:17 +0200 5)     return 0;
@@ -76,31 +74,29 @@ What we can see here?
 
 This seems useful, right? But wait, we can do more! We all know that it shouldn't be done but it still is. Copy & paste programming is sad reality and can really complicate finding out who originally wrote what line and where. But git to the rescue! First let's run blame on `MyWindowsApp/dll.txt` to see the result:
 
-* ```git blame MyWindowsApp/dll.txt```
-
 ```
+> git blame MyWindowsApp/dll.txt
 e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 1) // Added during git workshop
-e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 2) 
+e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 2)
 e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 3) // windows
 e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 4) int main ( int argc , char * * argv ) {
 e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 5)     return 0;
 e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 6) }
-e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 7) 
+e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 7)
 e2385cf8 (Wolf 2016-03-31 01:34:40 +0200 8) // dll version
 ```
 
 It looks like I wrote those lines in commit e2385cf8, but we know they originated from the other files. So let's find true origin of those lines.
 
-* ```git blame -C -C -C MyWindowsApp/dll.txt```
-
 ```
+> git blame -C -C -C MyWindowsApp/dll.txt
 dc2331b3 MyWindowsApp/windows.txt (Wolf 2016-03-31 01:34:17 +0200 1) // Added during git workshop
-dc2331b3 MyWindowsApp/windows.txt (Wolf 2016-03-31 01:34:17 +0200 2) 
+dc2331b3 MyWindowsApp/windows.txt (Wolf 2016-03-31 01:34:17 +0200 2)
 dc2331b3 MyWindowsApp/windows.txt (Wolf 2016-03-31 01:34:17 +0200 3) // windows
 dc2331b3 MyWindowsApp/windows.txt (Wolf 2016-03-31 01:34:17 +0200 4) int main ( int argc , char * * argv ) {
 dc2331b3 MyWindowsApp/windows.txt (Wolf 2016-03-31 01:34:17 +0200 5)    return 0;
 dc2331b3 MyWindowsApp/windows.txt (Wolf 2016-03-31 01:34:17 +0200 6) }
-e2385cf8 MyWindowsApp/dll.txt     (Wolf 2016-03-31 01:34:40 +0200 7) 
+e2385cf8 MyWindowsApp/dll.txt     (Wolf 2016-03-31 01:34:40 +0200 7)
 e2385cf8 MyWindowsApp/dll.txt     (Wolf 2016-03-31 01:34:40 +0200 8) // dll version
 ```
 
