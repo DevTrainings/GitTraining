@@ -1,3 +1,5 @@
+> Preparation: `git clone git@github.com:DevTrainings/premade_reset.git`
+
 git-reset
 =========
 
@@ -14,28 +16,35 @@ Resets index entries for all &lt;paths&gt; to their state at &lt;tree-ish&gt;. I
 
 We can try it on our current repository. Use this form of reset to return to what `09-Blame/readme.md` looked like before it was added:
 
-	$ git status
+	> git status
+
 	On branch master
 	Your branch is up-to-date with 'origin/master'.
 	nothing to commit, working directory clean
-	$ git log --oneline 09-Blame/readme.md
-	a6c2077 fixed english
-	194e914 reflected feedback
-	f319f65 fixed list
-	38c74b7 git blame
-	$ git reset 38c74b7~1 09-Blame/readme.md
-	$ git status
+
+	> git log --oneline
+
+	1ec1e95 Added file d
+	d5b3c30 Added file c
+	735d4fe Added file b
+	c6d47dc Added file a
+
+	> git reset 735d4fe -- c
+
+	> git status
+
 	On branch master
 	Your branch is up-to-date with 'origin/master'.
 	Changes to be committed:
 	  (use "git reset HEAD <file>..." to unstage)
 
-		deleted:    09-Blame/readme.md
+		deleted:    c
 
-	Untracked files:
-	  (use "git add <file>..." to include in what will be committed)
+		Untracked files:
+		  (use "git add <file>..." to include in what will be committed)
 
-		09-Blame/
+			c
+
 
 Notice that the file is in `Untracked files`, meaning our working tree was not touched.
 
@@ -49,15 +58,17 @@ This allows you to interactively select hunks in the difference between the inde
 git reset [<mode>] [<commit>]
 -----------------------------
 
+> The `HEAD~<n>` syntax used here means n-th generation parent of current specified commit. So `--A--B--C (HEAD)`, `HEAD~1` will point to `B` and `HEAD~2` will point to `A`.
+
 This form resets the current branch head to &lt;commit&gt; and depending on the mode also updates the index or working tree.
 
 * --soft
 	* does not touch the index or the working tree, your files will remain as they were and in "Changes to be commited" (index).
 	* this is useful if you've forgotten to add something into last commit
 
-	git reset --soft HEAD~1
-	git add forgotten_file
-	git commit
+	> git reset --soft HEAD~1
+	> git add forgotten_file
+	> git commit
 
 * --mixed (default)
 	* resets the index but not the working tree
@@ -70,7 +81,7 @@ This form resets the current branch head to &lt;commit&gt; and depending on the 
 		* you screwed up merge and want to try again?
 		* your code is completely wrong and you want to start over?
 
-	git reset --hard HEAD~1
+	> git reset --hard HEAD~1
 
 	* this throws away last commit and all your tracked files are returned to state they were in
 * --merge
