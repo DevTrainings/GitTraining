@@ -1,4 +1,4 @@
-> Preparation: `git@github.com:DevTrainings/premade_blame.git`
+> Preparation: `git clone https://github.com/DevTrainings/premade_blame.git`
 
 # git-blame
 
