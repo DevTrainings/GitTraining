@@ -51,6 +51,7 @@ operations and study more advance scenarios on your own.
 * blame
 * remote
 * rebase
+* reset
 * tag
 * TFS
 
