@@ -1,6 +1,6 @@
 > Preparation:
 
-> `git clone git@github.com:DevTrainings/premade_log.git`
+> `git clone https://github.com/DevTrainings/premade_log.git`
 
 > `cd premade_log`
 
