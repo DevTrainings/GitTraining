@@ -1,4 +1,4 @@
-> Preparation: `git clone git@github.com:DevTrainings/premade_checkout.git`
+> Preparation: `git clone https://github.com/DevTrainings/premade_checkout.git`
 
 # Working with branches
 

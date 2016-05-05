@@ -1,4 +1,4 @@
-> Preparation: `git clone git@github.com:DevTrainings/test_rebase.git`
+> Preparation: `git clone https://github.com/DevTrainings/test_rebase.git`
 
 git-rebase
 ==========

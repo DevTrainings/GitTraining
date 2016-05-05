@@ -1,4 +1,4 @@
-> Preparation: `git clone git@github.com:DevTrainings/premade_branch.git`
+> Preparation: `git clone https://github.com/DevTrainings/premade_branch.git`
 
 # Branching
 

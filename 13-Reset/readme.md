@@ -1,4 +1,4 @@
-> Preparation: `git clone git@github.com:DevTrainings/premade_reset.git`
+> Preparation: `git clone https://github.com/DevTrainings/premade_reset.git`
 
 git-reset
 =========
