@@ -82,7 +82,7 @@ Alternatively, if you want to use something smaller and (imho) better, you can g
 #### Git for Windows
 
 	$ git config --global mergetool.kdiff3.path "C:/Program Files/KDiff3/kdiff3.exe"
-	$ git config --global merge.tool=kdiff3
+	$ git config --global merge.tool kdiff3
 
 #### Cygwin
 
