@@ -65,7 +65,7 @@ drwxr-xr-x 2 paladin paladin 80 Mar 20 14:58 MyWindowsApp
 Now it's time to take a look at second usage for `git-checkout`. Restoring files in working tree. Let's see how `MyConsoleApp/console.txt` looks
 
 ```
-> cat MyConsoleApp/console.txt```
+> cat MyConsoleApp/console.txt
 ...
 Added during git workshop
 ```
