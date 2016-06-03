@@ -3,6 +3,7 @@
 ## GitHub (free)
 
 * Windows integrated GitHub client.
+* Support for GitHub pull requests.
 * During the first login sets the credentials for user to work with GitHub.
 * Built-in support for Git TFS.
 * Provides greatly configured PowerShell GIT extension.
