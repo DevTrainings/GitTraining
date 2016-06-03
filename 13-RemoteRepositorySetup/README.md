@@ -6,7 +6,7 @@
 * In real world you would have a remote copy for several reasons:
   * Backup of the code (remote repository is backup on its own but the server
     usually has a backup too).
-  * You would have a central repository shared by multiple developers.
+  * Central repository shared by multiple developers.
 * Since _GIT_ is distributed source control management system you
   usually have multiple copies of the repository on various places.
   * All the copies are exactly same and equivalent.
@@ -24,7 +24,7 @@
 ```
   * _origin_ is an alias used by various commands. It is also a commonly used
    alias for default remote.
-  * [https://github.com/voloda/GitTrainingPlayground.git](https://github.com/voloda/GitTrainingPlayground.git) is the remote URL of your repository.
+  * [https://github.com/voloda/GitTrainingPlayground.git](https://github.com/voloda/GitTrainingPlayground.git) is the remote URL of __your__ repository so adjust it accordingly.
 * Now publish your entire repository to the server:
 ```
 > git push origin --mirror

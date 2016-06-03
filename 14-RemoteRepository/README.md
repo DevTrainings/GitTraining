@@ -2,25 +2,29 @@
 
 ## Introduction
 
-Once we have our remote repository configured we would be able to work with it.
+Once we have our remote repository configured, we can work with it.
 
 The list of commands below allows to work with remote repository.
 
+Remote repository does not need to be provided by a _GIT_ server, it can
+be as well a network share or just a different local folder.
+
 ### Upstream
 
-Upstream is a branch in central location. If a branch is configured for upstream
-some of the commands (like ```git pull```) will not require the name of remote
-and branch.
+Upstream is a branch in central location. If a branch is configured for upstream some of the commands (like ```git pull```) will not require the name of remote and branch.
 
 Also it is pretty convenient since you may usually see the status of your
 working branch indicated in the command line.
+
+Having an upstream is optional and you can change it/remove at any point
+in future.
 
 ## Commands
 
 ### Creating copy of remote repository
 
 * Since we just published our local repository we do not need to create
-  a local copy.
+  a local copy (we can skip `git clone`).
 * Process of creating a local repository copy is known as ```clone```.
 * Please note that we are leaving alone setup of the authentication here.
 ```
@@ -43,17 +47,19 @@ remote: Total 26 (delta 2), reused 26 (delta 2), pack-reused 0
 Unpacking objects: 100% (26/26), done.
 Checking connectivity... done.
 ```
-* If required you may be asked to provide credentials for your remote account.
+* You may be asked to provide credentials for your remote account.
 
 ### Publishing a branch
 
 * Let's create a local branch where we will develop a nice new feature:
+
 ```
 > git checkout -b AddEasterEgg
 Switched to a new branch 'AddEasterEgg'
 ```
 
 * Let's do some changes to it:
+
 ```
 > echo "Happy Easters!" > MyWindowsApp\EasterEgg.txt
 > git add MyWindowsApp\EasterEgg.txt
@@ -64,6 +70,7 @@ Switched to a new branch 'AddEasterEgg'
 ```
 
 * Let's publish the branch now.
+
 ```
 > git push -u origin AddEasterEgg
 Counting objects: 4, done.
@@ -79,12 +86,16 @@ To https://github.com/voloda/GitTrainingPlayground.git
 
 It may be handy to see the list of branches including remote ones first.
 
-First let's update the content of the local repository from remote:
+First let's update the local index from remote. This command does not affect your working copy - just refreshes the distributed clone of the repository (which is different from TFS).
+
+You can easily compare the differences between local and remote branches.
+
 ```
 > git fetch origin
 ```
 
 Now see the list
+
 ```
 > git branch -a
 GitRm
@@ -134,7 +145,12 @@ details:
 > git pull origin Remote
 ```
 
-## Comments
+In high level `pull` can be considered as a shortcut for `git pull` and
+`git merge` which is performed in a single step.
+
+If you would review first what you are about to merge simple do `git fetch` and then compare remote and local branch.
+
+## Authenticatin/Credentials
 
 * In the case you work with a remote repository you usually need some
   kind of credentials.
