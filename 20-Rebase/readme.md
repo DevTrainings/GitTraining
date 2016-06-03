@@ -22,7 +22,8 @@ Let's check how it looks:
 	* 46a3735 a
 	* 3173651 readme
 
-We see that some commits on master were done, than was create branch `feature` and then more commits were done both on `master` and `feature`.
+We see that some commits on master were done, then was created branch `feature`
+and then more commits were done both on `master` and `feature`.
 
 Now we know that last commits on `master` change some code we were using so our changes would not longer compile. We want to fix this, because resolving stuff like this is better to do sooner than later. We have two options now:
 
@@ -122,7 +123,7 @@ So looking at the command, we can see that we want `f` for the second one and `d
 	cb1bb54 b
 	46a3735 a
 	3173651 readme
-	$ cat rebase_i 
+	$ cat rebase_i
 	Bye
 
 We can see that rebase was correctly done and `rebase_i` contains correct message.

@@ -16,7 +16,7 @@ There are two kinds of tags
 
 This type of tag is basically just a pointer to specific commit, it doesn't contain anything special.
 
-	git tag TAGNAME
+	> git tag TAGNAME
 
 That's all, there is nothing more to it.
 
@@ -61,7 +61,7 @@ This shows you difference between lightweight and annotated tags the best:
 
 ### lightweight
 
-	git show lightweight 
+	git show lightweight
 
 	commit 82103463d8a94723420375f8a1609fda01082a81
 	Author: Wolf <wolf@wolfsden.cz>

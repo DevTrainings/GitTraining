@@ -1,14 +1,12 @@
 > Preparation: `git clone https://github.com/DevTrainings/premade_reset.git`
 
-git-reset
-=========
+# git-reset
 
 > Reset current HEAD to the specified state
 
 Git reset has three forms. &lt;tree-ish&gt; defaults to HEAD in all of them.
 
-git reset [-q] [<tree-ish>] [--] <paths>...
--------------------------------------------
+## git reset [-q] [<tree-ish>] [--] <paths>...
 
 > Can be thought of as opposite for `git-add`.
 
@@ -16,22 +14,23 @@ Resets index entries for all &lt;paths&gt; to their state at &lt;tree-ish&gt;. I
 
 We can try it out. Use this form of reset to return to what `c` file looked like before it was added:
 
-	> git status
+```
+> git status
 
 	On branch master
 	Your branch is up-to-date with 'origin/master'.
 	nothing to commit, working directory clean
 
-	> git log --oneline
+> git log --oneline
 
 	1ec1e95 Added file d
 	d5b3c30 Added file c
 	735d4fe Added file b
 	c6d47dc Added file a
 
-	> git reset 735d4fe -- c
+> git reset 735d4fe -- c
 
-	> git status
+> git status
 
 	On branch master
 	Your branch is up-to-date with 'origin/master'.
@@ -44,19 +43,18 @@ We can try it out. Use this form of reset to return to what `c` file looked like
 		  (use "git add <file>..." to include in what will be committed)
 
 			c
-
+```
 
 Notice that the file is in `Untracked files`, meaning our working tree was not touched.
 
-git reset (--patch|-p) [<tree-ish>] [--] [<paths>...]
------------------------------------------------------
+## git reset (--patch|-p) [<tree-ish>] [--] [<paths>...]
+
 
 > Opposite for `git-add -p`.
 
 This allows you to interactively select hunks in the difference between the index and &lt;tree-ish&gt; and then apply them to index.
 
-git reset [<mode>] [<commit>]
------------------------------
+## git reset [<mode>] [<commit>]
 
 > The `HEAD~<n>` syntax used here means n-th generation parent of current specified commit. So `--A--B--C (HEAD)`, `HEAD~1` will point to `B` and `HEAD~2` will point to `A`.
 
