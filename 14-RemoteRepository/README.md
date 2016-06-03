@@ -150,7 +150,7 @@ In high level `pull` can be considered as a shortcut for `git pull` and
 
 If you would review first what you are about to merge simple do `git fetch` and then compare remote and local branch.
 
-## Authenticatin/Credentials
+## Authentication/Credentials
 
 * In the case you work with a remote repository you usually need some
   kind of credentials.
