@@ -24,14 +24,14 @@ git remote remove origin
 ## Commands
 
 * Let's publish our previously created repository:
-  * Create an empty repository on your favorite server (for example _Github_).
+  * Create an empty repository on your favorite server (for example _Github_). For simplicity let's use name `premade_remote`
 * Setup the remote repository for the local repository:
 ```
-> git remote add origin https://github.com/voloda/GitTrainingPlayground.git
+> git remote add origin https://github.com/voloda/premade_remote.git
 ```
   * _origin_ is an alias used by various commands. It is also a commonly used
    alias for default remote.
-  * [https://github.com/voloda/GitTrainingPlayground.git](https://github.com/voloda/GitTrainingPlayground.git) is the remote URL of __your__ repository so adjust it accordingly.
+  * [https://github.com/voloda/premade_remote.git](https://github.com/voloda/premade_remote.git) is the remote URL of __your__ repository so adjust it accordingly.
 * Now publish your entire repository to the server:
 ```
 > git push origin --mirror
