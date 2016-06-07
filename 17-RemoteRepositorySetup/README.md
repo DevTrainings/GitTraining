@@ -2,6 +2,8 @@ Preparation:
 ```
 git clone https://github.com/DevTrainings/premade_remote.git
 cd premade_remote
+git checkout documentation
+git checkout master
 git remote remove origin
 ```
 
