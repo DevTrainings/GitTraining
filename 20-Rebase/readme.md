@@ -31,21 +31,30 @@ Now we know that last commits on `master` change some code we were using so our 
 * rebase
 	* this can reapply our commits in `feature` onto current tip of the `master`
 
-	$ git rebase master
-	First, rewinding head to replay your work on top of it...
-	Applying: c
-	Applying: d
-	$ git log --all --graph --oneline --decorate
-	* f60a099 (HEAD -> feature) d
-	* 378da49 c
-	* 4034926 (origin/master, master) f
-	* f08314c e
-	| * 82bb34d (origin/feature) d
-	| * 033af1f c
-	|/  
-	* cb1bb54 b
-	* 46a3735 a
-	* 3173651 readme
+```
+> git checkout feature
+```
+
+```
+> git rebase master
+First, rewinding head to replay your work on top of it...
+Applying: c
+Applying: d
+```
+
+```
+$ git log --all --graph --oneline --decorate
+* f60a099 (HEAD -> feature) d
+* 378da49 c
+* 4034926 (origin/master, master) f
+* f08314c e
+| * 82bb34d (origin/feature) d
+| * 033af1f c
+|/  
+* cb1bb54 b
+* 46a3735 a
+* 3173651 readme
+```
 
 We can see that our branch now looks like it was branched from current tip of the master
 
