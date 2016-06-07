@@ -1,3 +1,10 @@
+Preparation:
+```
+git clone https://github.com/DevTrainings/premade_remote.git
+cd remote
+git remote remote origin
+```
+
 # Working with remote repository
 
 ## Introduction
