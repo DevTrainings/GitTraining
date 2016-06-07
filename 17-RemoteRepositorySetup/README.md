@@ -37,14 +37,14 @@ git remote remove origin
 * Now publish your entire repository to the server:
 ```
 > git push origin --mirror
-Counting objects: 26, done.
+Counting objects: 19, done.
 Delta compression using up to 8 threads.
-Compressing objects: 100% (12/12), done.
-Writing objects: 100% (26/26), 1.96 KiB | 0 bytes/s, done.
-Total 26 (delta 2), reused 0 (delta 0)
-To https://github.com/voloda/GitTrainingPlayground.git
+Compressing objects: 100% (11/11), done.
+Writing objects: 100% (19/19), 4.08 KiB | 0 bytes/s, done.
+Total 19 (delta 1), reused 0 (delta 0)
+To https://github.com/voloda/premade_remote.git
+ * [new branch]      documentation -> documentation
  * [new branch]      master -> master
- * [new branch]      my_apple_app -> my_apple_app
 ```
 
 ## Comments
