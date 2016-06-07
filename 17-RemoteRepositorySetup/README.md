@@ -56,7 +56,7 @@ To https://github.com/voloda/premade_remote.git
     * Different versions of the Github Desktop can map repositories differently.
     * You can use ```git remote --verbose``` to see details about mappings.
 
-### Re-mapping remote repository to new server
+### Re-mapping local repository to a new server
 
 If you move the repository to another _git_ server you can re-map your
 remotes easily.
