@@ -2,7 +2,7 @@ Preparation:
 ```
 git clone https://github.com/DevTrainings/premade_remote.git
 cd premade_remote
-git remote remote origin
+git remote remove origin
 ```
 
 # Working with remote repository
