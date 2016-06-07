@@ -1,7 +1,7 @@
 Preparation:
 ```
 git clone https://github.com/DevTrainings/premade_remote.git
-cd remote
+cd premade_remote
 git remote remote origin
 ```
 
