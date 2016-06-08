@@ -6,7 +6,7 @@ There is wide array of possible git workflows you and your team can follow.
 Centralized Workflow
 --------------------
 
-![Centralized Workflow](https://cdn.rawgit.com/DevTrainings/GitTraining/f_18/15-GitFlows/centralized.svg)
+![Centralized Workflow](https://devtrainings.github.io/GitTraining/git-flows/centralized.svg)
 
 This way git is used in the same (or very similar) way as centralized version control system. You have one repository which serves as central point holding all the changes.
 
@@ -19,7 +19,7 @@ All developers normally work on `master` branch, do local commits and push when 
 Feature Branch Workflow
 -----------------------
 
-![Feature Branch Workflow](https://cdn.rawgit.com/DevTrainings/GitTraining/f_18/15-GitFlows/feature-branch.svg)
+![Feature Branch Workflow](https://devtrainings.github.io/GitTraining/git-flows/feature-branch.svg)
 
 This is extension of previous model with the exception that each new feature lives in its own branch. Multiple developers can easily works on the feature in the feature branch without disturbing `master` with changes.
 
@@ -32,7 +32,7 @@ Important on this is that feature branches can contain lots of small commits and
 Gitflow Workflow
 ----------------
 
-![Gitflow Workflow](https://cdn.rawgit.com/DevTrainings/GitTraining/f_18/15-GitFlows/gitflow.svg)
+![Gitflow Workflow](https://devtrainings.github.io/GitTraining/git-flows/gitflow.svg)
 
 This workflow is quite similar to Feature Branch Workflow but has strict branching model which streamlines work with bigger projects.
 
@@ -46,12 +46,12 @@ Lastly, you can use hotfix/maintenance branches to to fix important issues. You 
 
 Here is another pretty picture describing all of this:
 
-![Gitflow detailed](https://cdn.rawgit.com/DevTrainings/GitTraining/f_18/15-GitFlows/gitflow-detailed.svg)
+![Gitflow detailed](https://devtrainings.github.io/GitTraining/git-flows/gitflow-detailed.svg)
 
 Forking Workflow
 ----------------
 
-![Forking Workflow](https://cdn.rawgit.com/DevTrainings/GitTraining/f_18/15-GitFlows/forking.svg)
+![Forking Workflow](https://devtrainings.github.io/GitTraining/git-flows/forking.svg)
 
 Very different workflow from those previously discussed. Each developer has his own server-side repository. This workflow is less common in enterprise environment but it can still has its uses.
 
