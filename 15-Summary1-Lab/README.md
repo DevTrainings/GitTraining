@@ -65,3 +65,9 @@ Bob want to buy at least ham in the supermarket (keep the list sorted alphabetic
 ## John (same branch as before)
 
 Merge John's changes into master (Be careful not to delete Bob's ham during the merge process).
+
+## The Result
+
+If you did everyting correctly, your repository should look like this:
+
+![result](final.png)
