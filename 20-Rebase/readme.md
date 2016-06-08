@@ -51,9 +51,9 @@ We can see that our branch now looks like it was branched from current tip of th
 
 ### Consequences
 
-It's important to keep in mind, that doing rebase rewrites repository history. This means that whoever was using original version of the branch will can conflicts when he tries to update.
+It's important to keep in mind, that doing rebase rewrites repository history. This means that whoever was using original version of the branch will get conflicts when he tries to update.
 
-> Think before you rebase some published branch. Think if will cause problems to some people. If yes, don't do it or notify them so they are not surprised.
+> Think before you rebase some published branch. Think if it will cause problems to some people. If yes, don't do it or notify them so they are not surprised.
 
 ### Conflicts
 
@@ -128,6 +128,11 @@ So looking at the command, we can see that we want `f` for the second one and `d
 We can see that rebase was correctly done and `rebase_i` contains correct message.
 
 Notice that hash of `msg added` commit changed, so all consequences from previous section apply.
+
+Lab
+---
+
+Start with cloning [this](https://github.com/DevTrainings/lab_rebase.git) repository. Then checkout branch `feature`. Imagine you just finished your work on branch `feature` and want to prepare it for being merged into `master`. You will likely want to rebase you work onto master. I want you to do exactly that. Rebase `feature` branch onto `master` branch using you tool of choice (command line, sourcetree, tortoise-git, whatever you like).
 
 Documentation
 -------------
