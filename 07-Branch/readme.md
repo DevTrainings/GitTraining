@@ -63,3 +63,5 @@ So, to sum up what we've just learned
 
 I recommend checking [git-branch documentation](https://git-scm.com/docs/git-branch) for more details,
 you can use `git-branch` to manage/list remote branches as well, set upstream for branch, create new branch from specific commit and more. All of that is out of scope of this tutorial.
+
+Also you can check [http://learngitbranching.js.org/](http://learngitbranching.js.org/) to get more interactive training.
