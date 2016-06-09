@@ -77,4 +77,4 @@ Who took this course:
 * Tomas Volf
 * Michaela Sluková
 * Lubos Kriz
-
+* Vasek H.
