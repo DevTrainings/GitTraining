@@ -145,6 +145,11 @@ Switched to a new branch 'AddJoke'
 
 ### Retrieving changes from a remote branch
 
+* Now switch back to `GitTrainingPlayground` clone.
+* Do a change there in `AddJoke` branch.
+* Push the branch content to upstream.
+* Switch to `GitTrainingPlayground2` clone again.
+
 If your branch was set to track a remote branch you can use:
 
 ```
