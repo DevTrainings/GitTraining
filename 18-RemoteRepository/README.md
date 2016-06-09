@@ -1,3 +1,14 @@
+Setup:
+```
+git clone https://github.com/DevTrainings/GitTrainingPlayground.git
+cd GitTrainingPlayground
+git checkout master
+git checkout AddEasterEgg
+git checkout my_apple_app
+git remote set-url origin https://github.com/voloda/GitTrainingPlayground.git
+git push origin --mirror
+```
+
 # Working with remote repository
 
 ## Introduction
