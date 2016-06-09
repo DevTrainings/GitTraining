@@ -3,7 +3,7 @@ Setup:
 git clone https://github.com/DevTrainings/GitTrainingPlayground.git
 cd GitTrainingPlayground
 git checkout master
-git checkout AddEasterEgg
+git checkout AddJoke
 git checkout my_apple_app
 git remote set-url origin https://github.com/voloda/GitTrainingPlayground.git
 git push origin --mirror
@@ -65,32 +65,32 @@ Checking connectivity... done.
 * Let's create a local branch where we will develop a nice new feature:
 
 ```
-> git checkout -b AddEasterEgg
-Switched to a new branch 'AddEasterEgg'
+> git checkout -b AddJoke
+Switched to a new branch 'AddJoke'
 ```
 
 * Let's do some changes to it:
 
 ```
-> echo "Happy Easters!" > MyWindowsApp\EasterEgg.txt
-> git add MyWindowsApp\EasterEgg.txt
+> echo "Happy Easters!" > MyWindowsApp\Joke.txt
+> git add MyWindowsApp\Joke.txt
 > git commit -m 'Adding the Easter Egg'
 [master a0bc533] Adding the Easter Egg
  1 file changed, 0 insertions(+), 0 deletions(-)
- create mode 100644 MyWindowsApp/EasterEgg.txt
+ create mode 100644 MyWindowsApp/Joke.txt
 ```
 
 * Let's publish the branch now.
 
 ```
-> git push -u origin AddEasterEgg
+> git push -u origin AddJoke
 Counting objects: 4, done.
 Delta compression using up to 8 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (4/4), 471 bytes | 0 bytes/s, done.
 Total 4 (delta 0), reused 0 (delta 0)
 To https://github.com/voloda/GitTrainingPlayground.git
- * [new branch]      AddEasterEgg -> AddEasterEgg
+ * [new branch]      AddJoke -> AddJoke
 ```
 
 ### Checking out a remote branch
