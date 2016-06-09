@@ -39,7 +39,7 @@ in future.
 * Process of creating a local repository copy is known as ```clone```.
 * Please note that we are leaving alone setup of the authentication here.
 ```
-> git clone https://github.com/DevTrainings/GitTrainingPlayground.git
+> git clone https://github.com/voloda/GitTrainingPlayground.git
 Cloning into 'GitTrainingPlayground'...
 remote: Counting objects: 26, done.
 remote: Compressing objects: 100% (10/10), done.
@@ -50,7 +50,7 @@ Checking connectivity... done.
 * Above command will clone remote repository to the local folder ```GitTrainingPlayground```.
 * You can specify the local folder name explicitly:
 ```
-> git clone https://github.com/DevTrainings/GitTrainingPlayground.git GitTrainingPlayground2
+> git clone https://github.com/voloda/GitTrainingPlayground.git GitTrainingPlayground2
 Cloning into 'GitTrainingPlayground2'...
 remote: Counting objects: 26, done.
 remote: Compressing objects: 100% (10/10), done.
