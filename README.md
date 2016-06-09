@@ -84,5 +84,6 @@ Who took this course:
 * Michaela Sluková
 * Lubos Kriz
 * Vasek H.
-* Adam
+* Adam 
+* Kirill Metrik
 * Tereza T.
