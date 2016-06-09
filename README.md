@@ -75,4 +75,10 @@ Who took this course:
 
 * Vladimir Kloz
 * Tomas Volf
-Roman Akberov
+* Roman Akberov
+* Abe
+* Michaela Sluková
+* Lubos Kriz
+* Vasek H.
+* Adam 
+
