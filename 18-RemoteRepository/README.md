@@ -62,6 +62,7 @@ Checking connectivity... done.
 
 ### Publishing a branch
 
+* Let's use `GitTrainingPlayground` clone of repository.
 * Let's create a local branch where we will develop a nice new feature:
 
 ```
@@ -95,6 +96,8 @@ To https://github.com/voloda/GitTrainingPlayground.git
 
 ### Checking out a remote branch
 
+We will use `GitTrainingPlayground2` clone of the repository.
+
 It may be handy to see the list of branches including remote ones first.
 
 First let's update the local index from remote. This command does not affect your working copy - just refreshes the distributed clone of the repository (which is different from TFS).
@@ -118,7 +121,7 @@ remotes/origin/GitRm
 remotes/origin/Remote
 remotes/origin/ToolsConfiguration
 remotes/origin/f_11
-remotes/origin/Fixes
+remotes/origin/AddJoke
 remotes/origin/master
 ```
 
@@ -126,18 +129,18 @@ If the remote branch does not conflict with any local branch, you can
 simply use:
 
 ```
-> git checkout Fixes
-Branch Fixes set up to track remote branch Fixes from origin.
-Switched to a new branch 'Fixes'
+> git checkout AddJoke
+Branch AddJoke set up to track remote branch AddJoke from origin.
+Switched to a new branch 'Joke'
 ```
 
 Or alternatively you can specify remote name too (```origin``` in this
 case):
 
 ```
-> git checkout -t origin/Fixes
-Branch Fixes set up to track remote branch Fixes from origin.
-Switched to a new branch 'Fixes'
+> git checkout -t origin/AddJoke
+Branch AddJoke set up to track remote branch AddJoke from origin.
+Switched to a new branch 'AddJoke'
 ```
 
 ### Retrieving changes from a remote branch
@@ -153,7 +156,7 @@ counterpart or you would pull changes from another branch you can specify
 details:
 
 ```
-> git pull origin Remote
+> git pull origin AddJoke
 ```
 
 In high level `pull` can be considered as a shortcut for `git pull` and
