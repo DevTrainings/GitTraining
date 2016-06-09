@@ -141,7 +141,11 @@ Notice that hash of `msg added` commit changed, so all consequences from previou
 Lab
 ---
 
-Start with cloning [this](https://github.com/DevTrainings/lab_rebase.git) repository. Then checkout branch `feature`. Imagine you just finished your work on branch `feature` and want to prepare it for being merged into `master`. You will likely want to rebase you work onto master. I want you to do exactly that. Rebase `feature` branch onto `master` branch using your tool of choice (command line, sourcetree, tortoise-git, whatever you like).
+* Start with cloning [https://github.com/DevTrainings/lab_rebase.git](https://github.com/DevTrainings/lab_rebase.git) repository. 
+* Checkout branch `feature`.
+* Imagine you just finished your work on branch `feature` and want to prepare it for being merged into `master`. 
+* You will likely want to rebase you work onto master. 
+* Rebase `feature` branch onto `master` branch using your tool of choice (command line, sourcetree, tortoise-git, whatever you like).
 
 Documentation
 -------------
