@@ -84,4 +84,4 @@ Who took this course:
 * Lubos Kriz
 * Vasek H.
 * Adam 
-* Kirill Metrik
+* Kirill Metrik* Tereza T.
