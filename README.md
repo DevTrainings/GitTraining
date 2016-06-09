@@ -75,3 +75,5 @@ Who took this course:
 
 * Vladimir Kloz
 * Tomas Volf
+* Lubos Kriz
+
