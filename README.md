@@ -73,15 +73,15 @@ operations and study more advance scenarios on your own.
 
 Who took this course:
 
-* Vladimir Kloz
-* Tomas Volf
-* Frankie
-* Michaela Sluková
-* Lubos Kriz
-* Vasek H.
 * Abe
-* Michaela Sluková
+* Adam 
+* Frankie
+* Kirill Metrik
 * Lubos Kriz
 * Martin Kozak
-* Vasek H.
+* Michaela Sluková
+* Roman Akberov
 * Tereza T.
+* Tomas Volf
+* Vasek H.
+* Vladimir Kloz
