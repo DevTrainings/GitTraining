@@ -74,7 +74,8 @@ operations and study more advance scenarios on your own.
 Who took this course:
 
 * Abe
-* Adam 
+* Adam
+* Alla Colesnic 
 * Frankie
 * Kirill Metrik
 * Lubos Kriz
