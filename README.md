@@ -77,6 +77,7 @@ Who took this course:
 * Adam
 * Alla Colesnic 
 * Baris
+* Donald Trump
 * Fina
 * Frankie
 * Julie Partykova
