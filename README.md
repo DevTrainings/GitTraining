@@ -85,6 +85,7 @@ Who took this course:
 * Marek Kukacka
 * Martin Kozak
 * Michaela Sluková
+* Oldřich Dlouhý
 * Ondra Straka
 * Roman Akberov
 * Tereza T.
