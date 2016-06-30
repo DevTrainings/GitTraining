@@ -76,14 +76,20 @@ Who took this course:
 * Abe
 * Adam
 * Alla Colesnic 
+* Baris
+* Fina
 * Frankie
-* Honza K.
+* Honza
+* Julie Partykova
 * Kirill Metrik
 * Lubos Kriz
+* Marek Kukacka
 * Martin Kozak
 * Michaela Sluková
+* Ondra Straka
 * Roman Akberov
 * Tereza T.
 * Tomas Volf
 * Vasek H.
 * Vladimir Kloz
+* Yury
