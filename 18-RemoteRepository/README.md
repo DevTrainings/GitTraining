@@ -3,7 +3,7 @@ Setup:
 git clone https://github.com/DevTrainings/GitTrainingPlayground.git
 cd GitTrainingPlayground
 git checkout master
-git checkout AddJoke
+git checkout AddEasterEgg
 git checkout my_apple_app
 git remote set-url origin https://github.com/voloda/GitTrainingPlayground.git
 git push origin --mirror
@@ -66,8 +66,8 @@ Checking connectivity... done.
 * Let's create a local branch where we will develop a nice new feature:
 
 ```
-> git checkout -b AddJoke
-Switched to a new branch 'AddJoke'
+> git checkout -b AddEasterEgg
+Switched to a new branch 'AddEasterEgg'
 ```
 
 * Let's do some changes to it:
@@ -84,14 +84,14 @@ Switched to a new branch 'AddJoke'
 * Let's publish the branch now.
 
 ```
-> git push -u origin AddJoke
+> git push -u origin AddEasterEgg
 Counting objects: 4, done.
 Delta compression using up to 8 threads.
 Compressing objects: 100% (3/3), done.
 Writing objects: 100% (4/4), 471 bytes | 0 bytes/s, done.
 Total 4 (delta 0), reused 0 (delta 0)
 To https://github.com/voloda/GitTrainingPlayground.git
- * [new branch]      AddJoke -> AddJoke
+ * [new branch]      AddEasterEgg -> AddEasterEgg
 ```
 
 ### Checking out a remote branch
@@ -121,7 +121,7 @@ remotes/origin/GitRm
 remotes/origin/Remote
 remotes/origin/ToolsConfiguration
 remotes/origin/f_11
-remotes/origin/AddJoke
+remotes/origin/AddEasterEgg
 remotes/origin/master
 ```
 
@@ -129,24 +129,24 @@ If the remote branch does not conflict with any local branch, you can
 simply use:
 
 ```
-> git checkout AddJoke
-Branch AddJoke set up to track remote branch AddJoke from origin.
-Switched to a new branch 'Joke'
+> git checkout AddEasterEgg
+Branch AddEasterEgg set up to track remote branch AddEasterEgg from origin.
+Switched to a new branch 'AddEasterEgg'
 ```
 
 Or alternatively you can specify remote name too (```origin``` in this
 case):
 
 ```
-> git checkout -t origin/AddJoke
-Branch AddJoke set up to track remote branch AddJoke from origin.
-Switched to a new branch 'AddJoke'
+> git checkout -t origin/AddEasterEgg
+Branch AddEasterEgg set up to track remote branch AddEasterEgg from origin.
+Switched to a new branch 'AddEasterEgg'
 ```
 
 ### Retrieving changes from a remote branch
 
 * Now switch back to `GitTrainingPlayground` clone.
-* Do a change there in `AddJoke` branch.
+* Do a change there in `AddEasterEgg` branch.
 * Push the branch content to upstream.
 * Switch to `GitTrainingPlayground2` clone again.
 
@@ -161,7 +161,7 @@ counterpart or you would pull changes from another branch you can specify
 details:
 
 ```
-> git pull origin AddJoke
+> git pull origin AddEasterEgg
 ```
 
 In high level `pull` can be considered as a shortcut for `git pull` and
