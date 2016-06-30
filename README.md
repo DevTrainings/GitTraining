@@ -77,8 +77,10 @@ Who took this course:
 * Adam
 * Alla Colesnic 
 * Frankie
+* Jiri Kralik
 * Kirill Metrik
 * Lubos Kriz
+* Marek Stastny
 * Martin Kozak
 * Michaela Sluková
 * Roman Akberov
@@ -86,3 +88,4 @@ Who took this course:
 * Tomas Volf
 * Vasek H.
 * Vladimir Kloz
+
