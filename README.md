@@ -81,6 +81,7 @@ Who took this course:
 * Lubos Kriz
 * Martin Kozak
 * Michaela Sluková
+* Oldřich Dlouhý
 * Roman Akberov
 * Tereza T.
 * Tomas Volf
