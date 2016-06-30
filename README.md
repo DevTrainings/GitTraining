@@ -93,3 +93,4 @@ Who took this course:
 * Vasek H.
 * Vladimir Kloz
 * Yury
+* Yury Levin
