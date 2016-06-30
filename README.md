@@ -77,6 +77,7 @@ Who took this course:
 * Adam
 * Alla Colesnic 
 * Frankie
+* Honza K.
 * Kirill Metrik
 * Lubos Kriz
 * Martin Kozak
