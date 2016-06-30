@@ -76,6 +76,7 @@ Who took this course:
 * Abe
 * Adam
 * Alla Colesnic 
+* Baris
 * Fina
 * Frankie
 * Julie Partykova
