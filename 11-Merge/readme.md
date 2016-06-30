@@ -189,6 +189,8 @@ HEAD is now at 05dbdf3 Merge branch 'bar'
 Now do the merge
 
 ```
+> git checkout master
+Switched to branch 'master'
 > git merge foo
 Auto-merging file
 CONFLICT (content): Merge conflict in file
