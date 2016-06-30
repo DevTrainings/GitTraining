@@ -75,6 +75,7 @@ Who took this course:
 
 * Abe
 * Adam
+* Adam Kucera
 * Alla Colesnic 
 * Baris
 * Donald Trump
