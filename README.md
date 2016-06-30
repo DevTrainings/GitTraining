@@ -76,6 +76,7 @@ Who took this course:
 * Abe
 * Adam
 * Alla Colesnic 
+* Fina
 * Frankie
 * Kirill Metrik
 * Lubos Kriz
