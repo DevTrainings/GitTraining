@@ -81,10 +81,12 @@ Who took this course:
 * Fina
 * Frankie
 * Honza
+* Jiri Kralik
 * Julie Partykova
 * Kirill Metrik
 * Lubos Kriz
 * Marek Kukacka
+* Marek Stastny
 * Martin Kozak
 * Michaela Sluková
 * Oldřich Dlouhý
