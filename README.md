@@ -86,3 +86,5 @@ Who took this course:
 * Tomas Volf
 * Vasek H.
 * Vladimir Kloz
+* Marek Stastny
+* Jiri Kralik
