@@ -1,4 +1,4 @@
-# Introduction
+﻿# Introduction
 
 The main goal of this repository is to provide a hands-on introduction training
 for GIT SCM.
@@ -76,15 +76,24 @@ Who took this course:
 * Abe
 * Adam
 * Alla Colesnic 
+* Baris
+* Fina
 * Frankie
 * Jiri Kralik
 * Kirill Metrik
 * Lubos Kriz
 * Marek Stastny
+* Julie Partykova
+* Kirill Metrik
+* Lubos Kriz
+* Marek Kukacka
 * Martin Kozak
 * Michaela Sluková
+* Oldřich Dlouhý
+* Ondra Straka
 * Roman Akberov
 * Tereza T.
 * Tomas Volf
 * Vasek H.
 * Vladimir Kloz
+* Yury
