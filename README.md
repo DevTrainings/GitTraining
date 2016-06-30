@@ -1,4 +1,4 @@
-﻿# Introduction
+# Introduction
 
 The main goal of this repository is to provide a hands-on introduction training
 for GIT SCM.
@@ -80,6 +80,7 @@ Who took this course:
 * Donald Trump
 * Fina
 * Frankie
+* Honza
 * Julie Partykova
 * Kirill Metrik
 * Lubos Kriz
