@@ -79,6 +79,7 @@ Who took this course:
 * Frankie
 * Kirill Metrik
 * Lubos Kriz
+* Marek Kukacka
 * Martin Kozak
 * Michaela Sluková
 * Roman Akberov
