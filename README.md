@@ -81,6 +81,7 @@ Who took this course:
 * Julie Partykova
 * Kirill Metrik
 * Lubos Kriz
+* Marek Kukacka
 * Martin Kozak
 * Michaela Sluková
 * Ondra Straka
